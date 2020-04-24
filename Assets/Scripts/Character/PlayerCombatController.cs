@@ -64,10 +64,18 @@ public class PlayerCombatController : MonoBehaviour
     public IEnumerator AttackSimple() {
         this.GetComponent<CharacterController>().enabled = false;
         navMeshAgent.enabled = true;
-        navMeshAgent.SetDestination(playerManager.ElementSelected.position);
 
-        while(Vector3.Distance(transform.position, playerManager.ElementSelected.position) > navMeshAgent.stoppingDistance) {
-            yield return null;
+        if(playerManager.character.weaponType == Character.WeaponType.shortDistance) { //Si el arma es a corta distancia
+            navMeshAgent.SetDestination(playerManager.ElementSelected.position);
+
+            while (Vector3.Distance(transform.position, playerManager.ElementSelected.position) > navMeshAgent.stoppingDistance) {
+                yield return null;
+            }
+        } else { //Si el arma es a larga distancia
+            navMeshAgent.SetDestination(this.transform.position);
+
+            Vector3 lookAtVec = new Vector3(playerManager.ElementSelected.position.x, transform.position.y, playerManager.ElementSelected.position.z);
+            transform.LookAt(lookAtVec);
         }
 
         animator.SetTrigger("SimpleAttack");

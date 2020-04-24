@@ -73,8 +73,9 @@ public class PlayerMovement : MonoBehaviour
             moveDirection *= speed;
         }
 
-        if (!animator.GetCurrentAnimatorStateInfo(0).IsName("Sheath A Sword") && !animator.GetCurrentAnimatorStateInfo(0).IsName("Draw A Weapon") 
-            && this.GetComponent<CharacterController>().enabled && !animator.GetCurrentAnimatorStateInfo(0).IsName("Spell Cast")) {
+        if (!animator.GetCurrentAnimatorStateInfo(0).IsName("Sheath A Weapon") && !animator.GetCurrentAnimatorStateInfo(0).IsName("Draw A Weapon") 
+            && this.GetComponent<CharacterController>().enabled && !animator.GetCurrentAnimatorStateInfo(0).IsName("Spell Cast") 
+            && !animator.GetCurrentAnimatorStateInfo(0).IsName("Shooting")) {
 
             characterController.Move(moveDirection * Time.deltaTime);
             transform.rotation = playerRotation;
@@ -111,15 +112,15 @@ public class PlayerMovement : MonoBehaviour
     //Anclamos el arma a la mano
     public void GrabWeapon() {
         weapon.transform.parent = hand;
-        weapon.transform.localPosition = new Vector3(0.803f, 0.208f, 1.267f);
-        weapon.transform.Rotate(weapon.transform.rotation.x, weapon.transform.rotation.y, 20f);
+        weapon.transform.localPosition = playerManager.character.grabWeaponPosition;
+        weapon.transform.localEulerAngles = playerManager.character.grabWeaponRotation;
     }
 
     //Anclamos el arma en su lugar de reposo
     public void SaveWeapon() {
         weapon.transform.parent = back;
-        weapon.transform.localPosition = new Vector3(-0.399f, -0.892f, -0.241f);
-        weapon.transform.localEulerAngles = new Vector3(111.654f, 81.077f, 85.92699f);
+        weapon.transform.localPosition = playerManager.character.saveWeaponPosition;
+        weapon.transform.localEulerAngles = playerManager.character.saveWeaponRotation;
     }
 
     //Se posiciona el arma para poder ser agarrada

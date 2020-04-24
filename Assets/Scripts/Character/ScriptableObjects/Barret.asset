@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: caa677ee95f64ac49be28ecc96796f16, type: 3}
+  m_Name: Barret
+  m_EditorClassIdentifier: 
+  faceImage: {fileID: 21300000, guid: 466cb2d96ee9ef849ad1916c54b152de, type: 3}
+  nameCh: Barret
+  surname: Wallace
+  weaponType: 1
+  exp: 0
+  level: 1
+  health: 120
+  mana: 10
+  job: 4
+  adaptWeaponToHand: {x: 0.055, y: -0.185, z: -0.163}
+  grabWeaponPosition: {x: 0.1492, y: -0.0571, z: 0.0113}
+  grabWeaponRotation: {x: 165.777, y: -93.07501, z: -91.91199}
+  saveWeaponPosition: {x: 0.055, y: 0.055, z: 0.055}
+  saveWeaponRotation: {x: 86.505, y: -33.244, z: -119.798}

@@ -20,6 +20,14 @@ public class Character : ScriptableObject
     public enum Job { Soldier, DarkMage, Thief, WhiteMage, Sniper }
     public Job job;
 
-    [Header("Transitions Movements")]
+    [Header("Adapt the position of the weapon where it draws")]
     public Vector3 adaptWeaponToHand;
+
+    [Header("Adapt the weapon to the hand that takes it")]
+    public Vector3 grabWeaponPosition;
+    public Vector3 grabWeaponRotation;
+
+    [Header("Adapt the weapon where it rests")]
+    public Vector3 saveWeaponPosition;
+    public Vector3 saveWeaponRotation;
 }

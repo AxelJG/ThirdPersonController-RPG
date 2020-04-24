@@ -1,11 +1,11 @@
 fileFormatVersion: 2
-guid: ca9daac287403a042828233996f9540b
+guid: 6a486ceacb52a7842a7433c82cdca0e0
 ModelImporter:
   serializedVersion: 19300
   internalIDToNameTable:
   - first:
       74: -203655887218126122
-    second: Pistol Strafe
+    second: Pistol Strafe Right
   externalObjects: {}
   materials:
     materialImportMode: 1
@@ -35,7 +35,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Pistol Strafe
+      name: Pistol Strafe Right
       takeName: mixamo.com
       internalID: 0
       firstFrame: 0
