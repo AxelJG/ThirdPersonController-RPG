@@ -6,10 +6,17 @@ using UnityEngine.AI;
 public class PlayerCombatController : MonoBehaviour
 {
     #region VARAIBLES
+    [Header("MAGIC")]
     public GameObject magicHandEffect;
     public GameObject magicProjectile;
     public GameObject magicHand;
-    
+
+    [Header("PROJECTILE'S")]
+    public GameObject projectile;
+    public GameObject muzzleFlare;
+    public GameObject bulletSpawnPoint;
+    public GameObject muzzleSpawnPoint;
+
     private PlayerManager playerManager;
     private PlayerMovement playerMovement;
     private Animator animator;
@@ -76,6 +83,7 @@ public class PlayerCombatController : MonoBehaviour
 
             Vector3 lookAtVec = new Vector3(playerManager.ElementSelected.position.x, transform.position.y, playerManager.ElementSelected.position.z);
             transform.LookAt(lookAtVec);
+            InstantiateBulletProjectile();
         }
 
         animator.SetTrigger("SimpleAttack");
@@ -97,9 +105,18 @@ public class PlayerCombatController : MonoBehaviour
         animator.SetTrigger("SimpleMagic");
         inactiveTime = INACTIVE_TIME;
     }
+    #endregion
 
+    #region INSTANTIATE PROJECTILES
     public void InstantiateMagicProjectile() {
         GameObject p = Instantiate(magicProjectile, magicHand.transform.position, transform.rotation);
+    }
+
+    private void InstantiateBulletProjectile() {
+        GameObject bulletTrace = Instantiate(projectile, bulletSpawnPoint.transform.position, transform.rotation);
+        bulletTrace.GetComponent<ExplodingProjectile>().missileTarget = playerManager.ElementSelected;
+
+        Instantiate(muzzleFlare, muzzleSpawnPoint.transform.position, muzzleSpawnPoint.transform.rotation);
     }
     #endregion
 }

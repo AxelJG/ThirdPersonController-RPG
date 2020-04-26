@@ -876,6 +876,10 @@ MonoBehaviour:
     type: 3}
   magicProjectile: {fileID: 195834, guid: 88dfa986f2cbd1b49be7b927c0f51e08, type: 3}
   magicHand: {fileID: 6367626181501052518}
+  projectile: {fileID: 1238843893459588, guid: df1a1922af2b37e4f9ade4203d8566bd, type: 3}
+  muzzleFlare: {fileID: 1000012903210382, guid: e165b34d6402b6449bce6c32e18c8419,
+    type: 3}
+  bulletSpawnPoint: {fileID: 7908301804116123719}
 --- !u!1 &3180031285885622686
 GameObject:
   m_ObjectHideFlags: 0
@@ -2066,6 +2070,36 @@ Transform:
   m_Father: {fileID: 1938080211051463926}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0.5113446, y: -0.55565184, z: 0.14503567}
+--- !u!1 &7908301804116123719
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7948403521618803739}
+  m_Layer: 0
+  m_Name: BulletSpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7948403521618803739
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7908301804116123719}
+  m_LocalRotation: {x: 0.0008454267, y: 0.7071063, z: -0.019996405, w: 0.706824}
+  m_LocalPosition: {x: 0.004, y: 0.06, z: 0.147}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1908110513557575572}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 1.6890001, y: 90, z: -1.552}
 --- !u!1 &8132039074241755013
 GameObject:
   m_ObjectHideFlags: 0
