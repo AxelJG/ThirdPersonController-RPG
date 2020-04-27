@@ -1955,7 +1955,7 @@ GameObject:
   - component: {fileID: 3445540387595278409}
   - component: {fileID: 8296172669285042356}
   m_Layer: 0
-  m_Name: xbot@Idle
+  m_Name: Soldier
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2092,6 +2092,10 @@ MonoBehaviour:
     type: 3}
   magicProjectile: {fileID: 195834, guid: 88dfa986f2cbd1b49be7b927c0f51e08, type: 3}
   magicHand: {fileID: 3441516124108527115}
+  projectile: {fileID: 0}
+  muzzleFlare: {fileID: 0}
+  bulletSpawnPoint: {fileID: 0}
+  muzzleSpawnPoint: {fileID: 0}
 --- !u!1 &6755415916426910961
 GameObject:
   m_ObjectHideFlags: 0

@@ -16,6 +16,11 @@ public class PlayerManager : MonoBehaviour
     private Transform elementSelected;
     private PlayerCombatController playerCombatController;
 
+    //Variables para el control de estres del las key's
+    private bool stressKey = true;
+    private const float BASE_STRESS_TIME = 1f;
+    private float stressTime = BASE_STRESS_TIME;
+
     private void Start() {
         elementSelected = this.transform;
         playerCombatController = GetComponent<PlayerCombatController>();
@@ -38,12 +43,27 @@ public class PlayerManager : MonoBehaviour
         }
 
         //Keyboard
-        if (Input.GetKeyDown(KeyCode.Alpha1) && elementSelected.tag.Equals("Enemy") && mode == CharacterMode.Controlled) {
+        if (Input.GetKeyDown(KeyCode.Alpha1) && elementSelected.tag.Equals("Enemy") && mode == CharacterMode.Controlled && stressKey) {
             StartCoroutine(playerCombatController.AttackSimple());
+            stressKey = false;
         }
 
-        if (Input.GetKeyDown(KeyCode.Alpha2) && elementSelected.tag.Equals("Enemy") && mode == CharacterMode.Controlled) {
+        if (Input.GetKeyDown(KeyCode.Alpha2) && elementSelected.tag.Equals("Enemy") && mode == CharacterMode.Controlled && stressKey) {
             playerCombatController.SimpleMagicAttack();
+            stressKey = false;
+        }
+
+        StressKeyTimer();
+    }
+
+    private void StressKeyTimer() {
+        if (!stressKey) {
+            if (stressTime > 0f) {
+                stressTime -= Time.deltaTime;
+            } else {
+                stressKey = true;
+                stressTime = BASE_STRESS_TIME;
+            }
         }
     }
 

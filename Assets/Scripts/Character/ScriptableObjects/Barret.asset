@@ -22,7 +22,7 @@ MonoBehaviour:
   mana: 10
   job: 4
   adaptWeaponToHand: {x: 0.055, y: -0.185, z: -0.163}
-  grabWeaponPosition: {x: 0.1492, y: -0.0571, z: 0.0113}
+  grabWeaponPosition: {x: 0.139, y: -0.058, z: 0.0113}
   grabWeaponRotation: {x: 165.777, y: -93.07501, z: -91.91199}
-  saveWeaponPosition: {x: 0.055, y: 0.055, z: 0.055}
+  saveWeaponPosition: {x: 0.051, y: -0.191, z: -0.173}
   saveWeaponRotation: {x: 86.505, y: -33.244, z: -119.798}

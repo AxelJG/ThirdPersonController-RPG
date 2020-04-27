@@ -83,11 +83,14 @@ public class PlayerCombatController : MonoBehaviour
 
             Vector3 lookAtVec = new Vector3(playerManager.ElementSelected.position.x, transform.position.y, playerManager.ElementSelected.position.z);
             transform.LookAt(lookAtVec);
-            InstantiateBulletProjectile();
+
+            if (!animator.GetCurrentAnimatorStateInfo(0).IsName("Draw A Weapon"))
+                InstantiateBulletProjectile();
         }
 
         animator.SetTrigger("SimpleAttack");
         inactiveTime = INACTIVE_TIME;
+
     }
 
     //Ataque magico simple

@@ -1,5 +1,35 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1280648202
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1280648203}
+  m_Layer: 0
+  m_Name: MuzzleSpawnPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1280648203
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1280648202}
+  m_LocalRotation: {x: -0.6946602, y: 0.0020803397, z: -0.7189909, w: 0.022250434}
+  m_LocalPosition: {x: 0.004, y: 0.061, z: 0.182}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1908110513557575572}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -1.6, y: 88, z: -178}
 --- !u!1 &265400515407873755
 GameObject:
   m_ObjectHideFlags: 0
@@ -880,6 +910,7 @@ MonoBehaviour:
   muzzleFlare: {fileID: 1000012903210382, guid: e165b34d6402b6449bce6c32e18c8419,
     type: 3}
   bulletSpawnPoint: {fileID: 7908301804116123719}
+  muzzleSpawnPoint: {fileID: 1280648202}
 --- !u!1 &3180031285885622686
 GameObject:
   m_ObjectHideFlags: 0
@@ -2093,13 +2124,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7908301804116123719}
-  m_LocalRotation: {x: 0.0008454267, y: 0.7071063, z: -0.019996405, w: 0.706824}
-  m_LocalPosition: {x: 0.004, y: 0.06, z: 0.147}
+  m_LocalRotation: {x: -0.6946602, y: 0.0020803397, z: -0.7189909, w: 0.022250434}
+  m_LocalPosition: {x: -0.001999705, y: 0.0019997954, z: 0.53600043}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1908110513557575572}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 1.6890001, y: 90, z: -1.552}
+  m_LocalEulerAnglesHint: {x: -1.6, y: 88, z: -178}
 --- !u!1 &8132039074241755013
 GameObject:
   m_ObjectHideFlags: 0
