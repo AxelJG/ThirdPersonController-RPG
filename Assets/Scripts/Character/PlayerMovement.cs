@@ -24,16 +24,18 @@ public class PlayerMovement : MonoBehaviour
     //Controlled
     private Vector3 moveDirection = Vector3.zero;
     private CharacterController characterController;
-
+    
     //AI
     private NavMeshAgent navMeshAgent;
+    private TroopManager troopManager;
     #endregion
 
-    #region BASE MEDTHODS
+    #region BASE METHODS
     private void Start() {
         playerManager = GetComponent<PlayerManager>();
         characterController = GetComponent<CharacterController>();
         navMeshAgent = GetComponent<NavMeshAgent>();
+        troopManager = Camera.main.transform.parent.GetComponent<TroopManager>();
     }
 
     // Update is called once per frame
@@ -90,7 +92,8 @@ public class PlayerMovement : MonoBehaviour
     #region CHARACTER AI METHODS
 
     private void CharacterAI() {
-        navMeshAgent.SetDestination(target.position);
+        if(!troopManager.Encounter && animator.GetCurrentAnimatorStateInfo(0).IsName("Movement"))
+            navMeshAgent.SetDestination(target.position);
 
         animator.SetFloat("Speed", navMeshAgent.velocity.magnitude / navMeshAgent.speed);
     }

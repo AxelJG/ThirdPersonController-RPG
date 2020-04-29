@@ -5,7 +5,7 @@ using UnityEngine.AI;
 
 public class PlayerCombatController : MonoBehaviour
 {
-    #region VARAIBLES
+    #region VARIABLES
     [Header("MAGIC")]
     public GameObject magicHandEffect;
     public GameObject magicProjectile;
@@ -17,6 +17,7 @@ public class PlayerCombatController : MonoBehaviour
     public GameObject bulletSpawnPoint;
     public GameObject muzzleSpawnPoint;
 
+    private TroopManager troopManager;
     private PlayerManager playerManager;
     private PlayerMovement playerMovement;
     private Animator animator;
@@ -24,7 +25,11 @@ public class PlayerCombatController : MonoBehaviour
 
     //Tiempo que el jugador se encuentra sin atacar
     private const float INACTIVE_TIME = 15f;
+    [SerializeField]
     private float inactiveTime = INACTIVE_TIME;
+
+    //Para que IA compruebe si el arma ya esta lista o no
+    private bool weaponReady = false;
     #endregion
 
     #region BASE METHODS
@@ -32,6 +37,7 @@ public class PlayerCombatController : MonoBehaviour
     {
         playerManager = GetComponent<PlayerManager>();
         playerMovement = GetComponent<PlayerMovement>();
+        troopManager = Camera.main.transform.parent.GetComponent<TroopManager>();
         animator = GetComponent<Animator>();
         navMeshAgent = GetComponent<NavMeshAgent>();
     }
@@ -46,9 +52,14 @@ public class PlayerCombatController : MonoBehaviour
     #region COMBAT STATES
     //Preparamos el arma para el combate
     public void PrepareWeapon() {
+
         playerManager.FightMode = true;
         StartCoroutine(playerMovement.AdaptWeaponToHand(0.5f, playerManager.character.adaptWeaponToHand));
         animator.SetBool("FightMode", true);
+        troopManager.Encounter = true;
+
+        weaponReady = true;
+        StartCoroutine(InactiveTimeAttack());
     }
 
     //Pasado un tiempo si no hay ataque pasa a modo reposo
@@ -60,9 +71,8 @@ public class PlayerCombatController : MonoBehaviour
             yield return null;
         }
 
-        playerManager.FightMode = false;
-        playerManager.ElementSelected = this.transform;
-        animator.SetBool("FightMode", false);
+        FinishFight();
+
     }
     #endregion
 
@@ -108,6 +118,16 @@ public class PlayerCombatController : MonoBehaviour
         animator.SetTrigger("SimpleMagic");
         inactiveTime = INACTIVE_TIME;
     }
+
+    public void FinishFight() {
+        weaponReady = false;
+        playerManager.FightMode = false;
+        playerManager.ElementSelected = this.transform;
+        animator.SetBool("FightMode", false);
+
+        if(troopManager.Encounter)
+            troopManager.Encounter = false;
+    }
     #endregion
 
     #region INSTANTIATE PROJECTILES
@@ -121,5 +141,31 @@ public class PlayerCombatController : MonoBehaviour
 
         Instantiate(muzzleFlare, muzzleSpawnPoint.transform.position, muzzleSpawnPoint.transform.rotation);
     }
+    #endregion
+
+    #region COMBAT AI MODE
+
+    public IEnumerator FightSequence() {
+        foreach (GameObject c in troopManager.playableCharacters) {
+            if(c.GetComponent<PlayerManager>().mode == PlayerManager.CharacterMode.Controlled) {
+                playerManager.ElementSelected = c.GetComponent<PlayerManager>().ElementSelected;
+                break;
+            }
+        }
+
+        while (troopManager.Encounter && playerManager.mode == PlayerManager.CharacterMode.AI) {
+            if (!weaponReady) {
+                PrepareWeapon();
+                weaponReady = true;
+                yield return new WaitForSeconds(1.2f);
+            }
+
+            yield return StartCoroutine(AttackSimple());
+            yield return new WaitForSeconds(1.2f);
+        }
+
+        yield return null;
+    }
+
     #endregion
 }

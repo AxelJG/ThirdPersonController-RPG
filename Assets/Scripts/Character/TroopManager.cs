@@ -5,10 +5,10 @@ using UnityEngine;
 public class TroopManager : MonoBehaviour
 {
     public List<GameObject> playableCharacters;
-    public Transform nextEnemy;
-
+    
     private CameraFollow cameraFollow;
     private int counterPlayableCharacter = 0;
+    private bool encounter = false;
 
     // Start is called before the first frame update
     void Start()
@@ -38,5 +38,33 @@ public class TroopManager : MonoBehaviour
         playableCharacters[chID].GetComponent<PlayerManager>().mode = PlayerManager.CharacterMode.Controlled;
         playableCharacters[chID].GetComponent<PlayerMovement>().ControlledConfiguration();
 
+        if (encounter) {
+            foreach (GameObject c in playableCharacters) {
+                if (c.GetComponent<PlayerManager>().mode == PlayerManager.CharacterMode.AI)
+                    StartCoroutine(c.GetComponent<PlayerCombatController>().FightSequence());
+            }
+        }
+
+    }
+
+    public bool Encounter {
+        get { return encounter; }
+        set {
+            if (value == encounter)
+                return;
+
+            encounter = value;
+            if (encounter) {
+                foreach (GameObject c in playableCharacters) {
+                    if(c.GetComponent<PlayerManager>().mode == PlayerManager.CharacterMode.AI)
+                        StartCoroutine(c.GetComponent<PlayerCombatController>().FightSequence());
+                }
+            } else {
+                foreach (GameObject c in playableCharacters) {
+                    if (c.GetComponent<PlayerManager>().mode == PlayerManager.CharacterMode.AI)
+                        c.GetComponent<PlayerCombatController>().FinishFight();
+                }
+            }
+        }
     }
 }

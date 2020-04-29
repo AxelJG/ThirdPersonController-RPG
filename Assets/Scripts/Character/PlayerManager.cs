@@ -37,7 +37,6 @@ public class PlayerManager : MonoBehaviour
 
                 if (!fightMode && elementSelected.tag.Equals("Enemy")) { //Si hemos hecho click sobre un enemigo, preparamos arma
                     playerCombatController.PrepareWeapon();
-                    StartCoroutine(playerCombatController.InactiveTimeAttack());
                 }
             }
         }

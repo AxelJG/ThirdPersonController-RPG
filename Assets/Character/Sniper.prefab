@@ -902,9 +902,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad35753376314ce45918be816803f642, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  magicHandEffect: {fileID: 1546378701820074, guid: 2b93d4e4c4cc7394a8922e7e1e9ff2d2,
+  magicHandEffect: {fileID: 1935630441017222, guid: fe071888711a2464e8505b5a3d8f9183,
     type: 3}
-  magicProjectile: {fileID: 195834, guid: 88dfa986f2cbd1b49be7b927c0f51e08, type: 3}
+  magicProjectile: {fileID: 1748139164946814, guid: 4f14e37b24a0f9c41a81220f59ae87f6,
+    type: 3}
   magicHand: {fileID: 6367626181501052518}
   projectile: {fileID: 1238843893459588, guid: df1a1922af2b37e4f9ade4203d8566bd, type: 3}
   muzzleFlare: {fileID: 1000012903210382, guid: e165b34d6402b6449bce6c32e18c8419,
