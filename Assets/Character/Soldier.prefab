@@ -2016,7 +2016,7 @@ NavMeshAgent:
   m_AutoBraking: 1
   m_AutoRepath: 1
   m_Height: 1.7
-  m_BaseOffset: -0.1
+  m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
 --- !u!95 &3445540387595278415
@@ -2096,6 +2096,7 @@ MonoBehaviour:
   muzzleFlare: {fileID: 0}
   bulletSpawnPoint: {fileID: 0}
   muzzleSpawnPoint: {fileID: 0}
+  inactiveTime: 15
 --- !u!1 &6755415916426910961
 GameObject:
   m_ObjectHideFlags: 0
