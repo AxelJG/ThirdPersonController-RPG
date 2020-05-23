@@ -32,10 +32,7 @@ public class ExplodingProjectile : MonoBehaviour
     void Start()
     {
         thisRigidbody = GetComponent<Rigidbody>();
-        if (Missile)
-        {
-            missileTarget = GameObject.FindWithTag("Target").transform;
-        }
+
         thisCollider = GetComponent<Collider>();
         previousPosition = transform.position;
     }

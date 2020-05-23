@@ -57,7 +57,7 @@ public class TroopManager : MonoBehaviour
             if (encounter) {
                 foreach (GameObject c in playableCharacters) {
                     if(c.GetComponent<PlayerManager>().mode == PlayerManager.CharacterMode.AI)
-                        StartCoroutine(c.GetComponent<PlayerCombatController>().FightSequence());
+                        StartCoroutine(c.GetComponent<PlayerCombatController>().DetectionNearbyEnemy());
                 }
             } else {
                 foreach (GameObject c in playableCharacters) {

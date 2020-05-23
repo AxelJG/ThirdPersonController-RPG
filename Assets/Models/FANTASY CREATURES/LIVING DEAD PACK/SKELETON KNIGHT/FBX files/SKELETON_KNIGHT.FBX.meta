@@ -1,0 +1,650 @@
+fileFormatVersion: 2
+guid: 9c1b707b80c272f42b8f152b1ca7b827
+ModelImporter:
+  serializedVersion: 19300
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: 2HANDED_SWORD
+  - first:
+      1: 100002
+    second: HELMET
+  - first:
+      1: 100004
+    second: PROTECTION
+  - first:
+      1: 100006
+    second: SHIELD
+  - first:
+      1: 100008
+    second: //RootNode
+  - first:
+      1: 100010
+    second: skeleton_knight
+  - first:
+      1: 100012
+    second: skeleton_knight_
+  - first:
+      1: 100014
+    second: skeleton_knight_ Head
+  - first:
+      1: 100016
+    second: skeleton_knight_ L Calf
+  - first:
+      1: 100018
+    second: skeleton_knight_ L Clavicle
+  - first:
+      1: 100020
+    second: skeleton_knight_ L Finger0
+  - first:
+      1: 100022
+    second: skeleton_knight_ L Finger01
+  - first:
+      1: 100024
+    second: skeleton_knight_ L Finger02
+  - first:
+      1: 100026
+    second: skeleton_knight_ L Finger1
+  - first:
+      1: 100028
+    second: skeleton_knight_ L Finger11
+  - first:
+      1: 100030
+    second: skeleton_knight_ L Finger12
+  - first:
+      1: 100032
+    second: skeleton_knight_ L Finger2
+  - first:
+      1: 100034
+    second: skeleton_knight_ L Finger21
+  - first:
+      1: 100036
+    second: skeleton_knight_ L Finger22
+  - first:
+      1: 100038
+    second: skeleton_knight_ L Finger3
+  - first:
+      1: 100040
+    second: skeleton_knight_ L Finger31
+  - first:
+      1: 100042
+    second: skeleton_knight_ L Finger32
+  - first:
+      1: 100044
+    second: skeleton_knight_ L Finger4
+  - first:
+      1: 100046
+    second: skeleton_knight_ L Finger41
+  - first:
+      1: 100048
+    second: skeleton_knight_ L Finger42
+  - first:
+      1: 100050
+    second: skeleton_knight_ L Foot
+  - first:
+      1: 100052
+    second: skeleton_knight_ L Forearm
+  - first:
+      1: 100054
+    second: skeleton_knight_ L Hand
+  - first:
+      1: 100056
+    second: skeleton_knight_ L Thigh
+  - first:
+      1: 100058
+    second: skeleton_knight_ L Toe0
+  - first:
+      1: 100060
+    second: skeleton_knight_ L Toe01
+  - first:
+      1: 100062
+    second: skeleton_knight_ L Toe02
+  - first:
+      1: 100064
+    second: skeleton_knight_ L UpperArm
+  - first:
+      1: 100066
+    second: skeleton_knight_ Neck
+  - first:
+      1: 100068
+    second: skeleton_knight_ Neck1
+  - first:
+      1: 100070
+    second: skeleton_knight_ Pelvis
+  - first:
+      1: 100072
+    second: skeleton_knight_ R Calf
+  - first:
+      1: 100074
+    second: skeleton_knight_ R Clavicle
+  - first:
+      1: 100076
+    second: skeleton_knight_ R Finger0
+  - first:
+      1: 100078
+    second: skeleton_knight_ R Finger01
+  - first:
+      1: 100080
+    second: skeleton_knight_ R Finger02
+  - first:
+      1: 100082
+    second: skeleton_knight_ R Finger1
+  - first:
+      1: 100084
+    second: skeleton_knight_ R Finger11
+  - first:
+      1: 100086
+    second: skeleton_knight_ R Finger12
+  - first:
+      1: 100088
+    second: skeleton_knight_ R Finger2
+  - first:
+      1: 100090
+    second: skeleton_knight_ R Finger21
+  - first:
+      1: 100092
+    second: skeleton_knight_ R Finger22
+  - first:
+      1: 100094
+    second: skeleton_knight_ R Finger3
+  - first:
+      1: 100096
+    second: skeleton_knight_ R Finger31
+  - first:
+      1: 100098
+    second: skeleton_knight_ R Finger32
+  - first:
+      1: 100100
+    second: skeleton_knight_ R Finger4
+  - first:
+      1: 100102
+    second: skeleton_knight_ R Finger41
+  - first:
+      1: 100104
+    second: skeleton_knight_ R Finger42
+  - first:
+      1: 100106
+    second: skeleton_knight_ R Foot
+  - first:
+      1: 100108
+    second: skeleton_knight_ R Forearm
+  - first:
+      1: 100110
+    second: skeleton_knight_ R Hand
+  - first:
+      1: 100112
+    second: skeleton_knight_ R Thigh
+  - first:
+      1: 100114
+    second: skeleton_knight_ R Toe0
+  - first:
+      1: 100116
+    second: skeleton_knight_ R Toe01
+  - first:
+      1: 100118
+    second: skeleton_knight_ R Toe02
+  - first:
+      1: 100120
+    second: skeleton_knight_ R UpperArm
+  - first:
+      1: 100122
+    second: skeleton_knight_ Spine
+  - first:
+      1: 100124
+    second: skeleton_knight_ Spine1
+  - first:
+      1: 100126
+    second: skeleton_knight_ Spine2
+  - first:
+      1: 100128
+    second: SWORD
+  - first:
+      1: 100130
+    second: WEAPON_BONE
+  - first:
+      4: 400000
+    second: 2HANDED_SWORD
+  - first:
+      4: 400002
+    second: HELMET
+  - first:
+      4: 400004
+    second: PROTECTION
+  - first:
+      4: 400006
+    second: SHIELD
+  - first:
+      4: 400008
+    second: //RootNode
+  - first:
+      4: 400010
+    second: skeleton_knight
+  - first:
+      4: 400012
+    second: skeleton_knight_
+  - first:
+      4: 400014
+    second: skeleton_knight_ Head
+  - first:
+      4: 400016
+    second: skeleton_knight_ L Calf
+  - first:
+      4: 400018
+    second: skeleton_knight_ L Clavicle
+  - first:
+      4: 400020
+    second: skeleton_knight_ L Finger0
+  - first:
+      4: 400022
+    second: skeleton_knight_ L Finger01
+  - first:
+      4: 400024
+    second: skeleton_knight_ L Finger02
+  - first:
+      4: 400026
+    second: skeleton_knight_ L Finger1
+  - first:
+      4: 400028
+    second: skeleton_knight_ L Finger11
+  - first:
+      4: 400030
+    second: skeleton_knight_ L Finger12
+  - first:
+      4: 400032
+    second: skeleton_knight_ L Finger2
+  - first:
+      4: 400034
+    second: skeleton_knight_ L Finger21
+  - first:
+      4: 400036
+    second: skeleton_knight_ L Finger22
+  - first:
+      4: 400038
+    second: skeleton_knight_ L Finger3
+  - first:
+      4: 400040
+    second: skeleton_knight_ L Finger31
+  - first:
+      4: 400042
+    second: skeleton_knight_ L Finger32
+  - first:
+      4: 400044
+    second: skeleton_knight_ L Finger4
+  - first:
+      4: 400046
+    second: skeleton_knight_ L Finger41
+  - first:
+      4: 400048
+    second: skeleton_knight_ L Finger42
+  - first:
+      4: 400050
+    second: skeleton_knight_ L Foot
+  - first:
+      4: 400052
+    second: skeleton_knight_ L Forearm
+  - first:
+      4: 400054
+    second: skeleton_knight_ L Hand
+  - first:
+      4: 400056
+    second: skeleton_knight_ L Thigh
+  - first:
+      4: 400058
+    second: skeleton_knight_ L Toe0
+  - first:
+      4: 400060
+    second: skeleton_knight_ L Toe01
+  - first:
+      4: 400062
+    second: skeleton_knight_ L Toe02
+  - first:
+      4: 400064
+    second: skeleton_knight_ L UpperArm
+  - first:
+      4: 400066
+    second: skeleton_knight_ Neck
+  - first:
+      4: 400068
+    second: skeleton_knight_ Neck1
+  - first:
+      4: 400070
+    second: skeleton_knight_ Pelvis
+  - first:
+      4: 400072
+    second: skeleton_knight_ R Calf
+  - first:
+      4: 400074
+    second: skeleton_knight_ R Clavicle
+  - first:
+      4: 400076
+    second: skeleton_knight_ R Finger0
+  - first:
+      4: 400078
+    second: skeleton_knight_ R Finger01
+  - first:
+      4: 400080
+    second: skeleton_knight_ R Finger02
+  - first:
+      4: 400082
+    second: skeleton_knight_ R Finger1
+  - first:
+      4: 400084
+    second: skeleton_knight_ R Finger11
+  - first:
+      4: 400086
+    second: skeleton_knight_ R Finger12
+  - first:
+      4: 400088
+    second: skeleton_knight_ R Finger2
+  - first:
+      4: 400090
+    second: skeleton_knight_ R Finger21
+  - first:
+      4: 400092
+    second: skeleton_knight_ R Finger22
+  - first:
+      4: 400094
+    second: skeleton_knight_ R Finger3
+  - first:
+      4: 400096
+    second: skeleton_knight_ R Finger31
+  - first:
+      4: 400098
+    second: skeleton_knight_ R Finger32
+  - first:
+      4: 400100
+    second: skeleton_knight_ R Finger4
+  - first:
+      4: 400102
+    second: skeleton_knight_ R Finger41
+  - first:
+      4: 400104
+    second: skeleton_knight_ R Finger42
+  - first:
+      4: 400106
+    second: skeleton_knight_ R Foot
+  - first:
+      4: 400108
+    second: skeleton_knight_ R Forearm
+  - first:
+      4: 400110
+    second: skeleton_knight_ R Hand
+  - first:
+      4: 400112
+    second: skeleton_knight_ R Thigh
+  - first:
+      4: 400114
+    second: skeleton_knight_ R Toe0
+  - first:
+      4: 400116
+    second: skeleton_knight_ R Toe01
+  - first:
+      4: 400118
+    second: skeleton_knight_ R Toe02
+  - first:
+      4: 400120
+    second: skeleton_knight_ R UpperArm
+  - first:
+      4: 400122
+    second: skeleton_knight_ Spine
+  - first:
+      4: 400124
+    second: skeleton_knight_ Spine1
+  - first:
+      4: 400126
+    second: skeleton_knight_ Spine2
+  - first:
+      4: 400128
+    second: SWORD
+  - first:
+      4: 400130
+    second: WEAPON_BONE
+  - first:
+      23: 2300000
+    second: 2HANDED_SWORD
+  - first:
+      23: 2300002
+    second: HELMET
+  - first:
+      23: 2300004
+    second: SHIELD
+  - first:
+      23: 2300006
+    second: SWORD
+  - first:
+      23: 2300008
+    second: WEAPON_BONE
+  - first:
+      33: 3300000
+    second: 2HANDED_SWORD
+  - first:
+      33: 3300002
+    second: HELMET
+  - first:
+      33: 3300004
+    second: SHIELD
+  - first:
+      33: 3300006
+    second: SWORD
+  - first:
+      33: 3300008
+    second: WEAPON_BONE
+  - first:
+      43: 4300000
+    second: PROTECTION
+  - first:
+      43: 4300002
+    second: skeleton_knight
+  - first:
+      43: 4300004
+    second: HELMET
+  - first:
+      43: 4300006
+    second: SHIELD
+  - first:
+      43: 4300008
+    second: 2HANDED_SWORD
+  - first:
+      43: 4300010
+    second: WEAPON_BONE
+  - first:
+      43: 4300012
+    second: SWORD
+  - first:
+      74: 7400000
+    second: Take 001
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      111: 11100000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: PROTECTION
+  - first:
+      137: 13700002
+    second: skeleton_knight
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 2HANDED_SWORD
+    second: {fileID: 2100000, guid: 0f258b22dbd2f8f40984a99c1e67bfcc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HELMET_ALBEDO
+    second: {fileID: 2100000, guid: 797147f954e50654caaed7e6cc07d2af, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: PROTECTION
+    second: {fileID: 2100000, guid: 102822f2c088358408a3751030befebb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SHIELD
+    second: {fileID: 2100000, guid: 3b563239c8a97e9488a8d9ae82d92ee5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SKELETON_KNIGHT
+    second: {fileID: 2100000, guid: cbf795e6acc874545ab24c715678f85a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SWORD
+    second: {fileID: 2100000, guid: 413863b680232b04089cc80a572ecf53, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: <Root Transform>
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips:
+  - 45574acfe4bbe9e4699a66d69892ddc3
+  - afaec6665b86ab041ac3f3ae54949ccd
+  - 1de1a433bf27ebe45b92ad36984ccd75
+  - 1584c7dd5c976f744a157aa4e00dbaaa
+  - b4719f2abef7e9840876f23dcfc756a2
+  - d1d3cd7e536801243b2464322d461185
+  - cac642f1cff351b45a80dbd0bebc0f60
+  - 4ed7279153ea36844a5b4101d664d2cb
+  - 9a925d8f6b75e744991fc27106b117f7
+  - 30c08fde010421e4190f813d3df81091
+  - fee2116070dc1f84bbb821e63c64f15a
+  - f5bcf350ee351d04eaea351c8072715e
+  - ad77c1e860380794a91ef8fecb470f8a
+  - 5a5b75e166a2a1c49989c9f371b52e0a
+  - 7887af6f6efb51d41817e6c9afd13c82
+  - b072bf3eabea41d4cbcb9e23d5459405
+  - 34be0625048bcb545bcd4c2595653d88
+  - a333c061f369a1146b6d7c27c2f733cb
+  - 032a3dbdb1f92f04d98dfebdb21d17f9
+  - b0c190ce240921f42b228bc2b332a8ff
+  - eca67bea4013bfc44a1e10746007cfcd
+  - 60630e54b225c844690fe1000976b560
+  - a83ed51d1595f0749a53ca35f21e090a
+  - 767c7b80e73098d4aa7110a5a2905084
+  - 7a773d6b4ff944c4fb1697bcbfcdc6eb
+  - 97a4a297a4174b04280c0742e23b6272
+  - 37cfcbc2b57321c42b8024cf288e9f07
+  - 61b429f417a7acb45b162c792795aea4
+  - 3c93018473632da42956b049116d892c
+  - 15402d6344a0d634580a36ba87abc6cd
+  - b179725da12f95b419aa060972018eea
+  - d9fdedce4242e31469213fe0c99032e0
+  - 646740fdd350c8345b202a0f9701187d
+  - 442c1069b9fb30744985800ffc604334
+  - 26389c28edc42ad458d0a29bc1cbd0f6
+  - d73af1b7c5350674dbc283c13c9110bc
+  - eece4af018a3ec244a3ed27d90e60532
+  - 7a1a0d397bb3fc641b0be61972c132d5
+  - adce15ebc4bafc1409f6b5f3af226f39
+  - 1520c73e9550f6948902d0a9f966c7fe
+  - 064f92cce6f4613499489c46bfbe4698
+  - feb4b620e38f57c42a55f5895ef1e236
+  - 01b24dd8b4aaa9c4dbdd519c569ae3f7
+  - 867ab1ea4f91705489364e0fbc4125cf
+  - ee8254609749de245af7d223251503fb
+  - e4d25cb3fa5387f459d4ad09780da85c
+  - 286d9a80b0c683648b47b51359dd5611
+  - 29b02a1f6d84f4145b0a94cc7f0275b4
+  - a182df43bd174c14f91eb5174e88eb68
+  - 8e0658aa2a915e1408dbb10ef7e57168
+  - b56e5161381ef8048865fb57d34bd9b2
+  - 333f6f1abdd489549bfa31696eb0fcb1
+  - db612189c4405e64ea6e2a5851d19110
+  - 51406a65c5cc3f04f86946f41f3f735e
+  - 6478e0df0e21e3e45af2c7d749a1c734
+  - cce8e42dbefe8b742bba5a88bbf7fad2
+  - 34a5b45c9a9162c49ae1b131023b2ffd
+  - 5c0f9111b5727514f8b58838f6d28f4f
+  - 3b261ec978d29da4b9c02f7209949154
+  - 2d0a22ab8c3b0bc44b402b381569e6c8
+  - 2e1fdf3ca9fc86c4da91d2f4749e96b4
+  - a028795e85d40a34f8749eb13b43d0c3
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: skeleton_knight_
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

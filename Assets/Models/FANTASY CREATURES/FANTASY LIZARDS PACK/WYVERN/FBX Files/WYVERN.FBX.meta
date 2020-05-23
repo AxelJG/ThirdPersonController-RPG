@@ -1,0 +1,603 @@
+fileFormatVersion: 2
+guid: f51633bbd1227dc4bbe886b073535aa4
+ModelImporter:
+  serializedVersion: 19300
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: WYVERN
+  - first:
+      1: 100004
+    second: WYVERN_
+  - first:
+      1: 100006
+    second: WYVERN_ Footsteps
+  - first:
+      1: 100008
+    second: WYVERN_ Head
+  - first:
+      1: 100010
+    second: WYVERN_ L Calf
+  - first:
+      1: 100012
+    second: WYVERN_ L Clavicle
+  - first:
+      1: 100014
+    second: WYVERN_ L Finger0
+  - first:
+      1: 100016
+    second: WYVERN_ L Finger01
+  - first:
+      1: 100018
+    second: WYVERN_ L Finger02
+  - first:
+      1: 100020
+    second: WYVERN_ L Finger1
+  - first:
+      1: 100022
+    second: WYVERN_ L Finger11
+  - first:
+      1: 100024
+    second: WYVERN_ L Finger12
+  - first:
+      1: 100026
+    second: WYVERN_ L Finger2
+  - first:
+      1: 100028
+    second: WYVERN_ L Finger21
+  - first:
+      1: 100030
+    second: WYVERN_ L Finger22
+  - first:
+      1: 100032
+    second: WYVERN_ L Finger3
+  - first:
+      1: 100034
+    second: WYVERN_ L Finger31
+  - first:
+      1: 100036
+    second: WYVERN_ L Finger32
+  - first:
+      1: 100038
+    second: WYVERN_ L Foot
+  - first:
+      1: 100040
+    second: WYVERN_ L Forearm
+  - first:
+      1: 100042
+    second: WYVERN_ L Hand
+  - first:
+      1: 100044
+    second: WYVERN_ L HorseLink
+  - first:
+      1: 100046
+    second: WYVERN_ L Thigh
+  - first:
+      1: 100048
+    second: WYVERN_ L Toe0
+  - first:
+      1: 100050
+    second: WYVERN_ L Toe01
+  - first:
+      1: 100052
+    second: WYVERN_ L Toe1
+  - first:
+      1: 100054
+    second: WYVERN_ L Toe11
+  - first:
+      1: 100056
+    second: WYVERN_ L UpperArm
+  - first:
+      1: 100058
+    second: WYVERN_ Neck
+  - first:
+      1: 100060
+    second: WYVERN_ Neck1
+  - first:
+      1: 100062
+    second: WYVERN_ Neck2
+  - first:
+      1: 100064
+    second: WYVERN_ Neck3
+  - first:
+      1: 100066
+    second: WYVERN_ Neck4
+  - first:
+      1: 100068
+    second: WYVERN_ Neck5
+  - first:
+      1: 100070
+    second: WYVERN_ Pelvis
+  - first:
+      1: 100072
+    second: WYVERN_ Ponytail1
+  - first:
+      1: 100074
+    second: WYVERN_ R Calf
+  - first:
+      1: 100076
+    second: WYVERN_ R Clavicle
+  - first:
+      1: 100078
+    second: WYVERN_ R Finger0
+  - first:
+      1: 100080
+    second: WYVERN_ R Finger01
+  - first:
+      1: 100082
+    second: WYVERN_ R Finger02
+  - first:
+      1: 100084
+    second: WYVERN_ R Finger1
+  - first:
+      1: 100086
+    second: WYVERN_ R Finger11
+  - first:
+      1: 100088
+    second: WYVERN_ R Finger12
+  - first:
+      1: 100090
+    second: WYVERN_ R Finger2
+  - first:
+      1: 100092
+    second: WYVERN_ R Finger21
+  - first:
+      1: 100094
+    second: WYVERN_ R Finger22
+  - first:
+      1: 100096
+    second: WYVERN_ R Finger3
+  - first:
+      1: 100098
+    second: WYVERN_ R Finger31
+  - first:
+      1: 100100
+    second: WYVERN_ R Finger32
+  - first:
+      1: 100102
+    second: WYVERN_ R Foot
+  - first:
+      1: 100104
+    second: WYVERN_ R Forearm
+  - first:
+      1: 100106
+    second: WYVERN_ R Hand
+  - first:
+      1: 100108
+    second: WYVERN_ R HorseLink
+  - first:
+      1: 100110
+    second: WYVERN_ R Thigh
+  - first:
+      1: 100112
+    second: WYVERN_ R Toe0
+  - first:
+      1: 100114
+    second: WYVERN_ R Toe01
+  - first:
+      1: 100116
+    second: WYVERN_ R Toe1
+  - first:
+      1: 100118
+    second: WYVERN_ R Toe11
+  - first:
+      1: 100120
+    second: WYVERN_ R UpperArm
+  - first:
+      1: 100122
+    second: WYVERN_ Spine
+  - first:
+      1: 100124
+    second: WYVERN_ Spine1
+  - first:
+      1: 100126
+    second: WYVERN_ Spine2
+  - first:
+      1: 100128
+    second: WYVERN_ Tail
+  - first:
+      1: 100130
+    second: WYVERN_ Tail1
+  - first:
+      1: 100132
+    second: WYVERN_ Tail10
+  - first:
+      1: 100134
+    second: WYVERN_ Tail11
+  - first:
+      1: 100136
+    second: WYVERN_ Tail2
+  - first:
+      1: 100138
+    second: WYVERN_ Tail3
+  - first:
+      1: 100140
+    second: WYVERN_ Tail4
+  - first:
+      1: 100142
+    second: WYVERN_ Tail5
+  - first:
+      1: 100144
+    second: WYVERN_ Tail6
+  - first:
+      1: 100146
+    second: WYVERN_ Tail7
+  - first:
+      1: 100148
+    second: WYVERN_ Tail8
+  - first:
+      1: 100150
+    second: WYVERN_ Tail9
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: WYVERN
+  - first:
+      4: 400004
+    second: WYVERN_
+  - first:
+      4: 400006
+    second: WYVERN_ Footsteps
+  - first:
+      4: 400008
+    second: WYVERN_ Head
+  - first:
+      4: 400010
+    second: WYVERN_ L Calf
+  - first:
+      4: 400012
+    second: WYVERN_ L Clavicle
+  - first:
+      4: 400014
+    second: WYVERN_ L Finger0
+  - first:
+      4: 400016
+    second: WYVERN_ L Finger01
+  - first:
+      4: 400018
+    second: WYVERN_ L Finger02
+  - first:
+      4: 400020
+    second: WYVERN_ L Finger1
+  - first:
+      4: 400022
+    second: WYVERN_ L Finger11
+  - first:
+      4: 400024
+    second: WYVERN_ L Finger12
+  - first:
+      4: 400026
+    second: WYVERN_ L Finger2
+  - first:
+      4: 400028
+    second: WYVERN_ L Finger21
+  - first:
+      4: 400030
+    second: WYVERN_ L Finger22
+  - first:
+      4: 400032
+    second: WYVERN_ L Finger3
+  - first:
+      4: 400034
+    second: WYVERN_ L Finger31
+  - first:
+      4: 400036
+    second: WYVERN_ L Finger32
+  - first:
+      4: 400038
+    second: WYVERN_ L Foot
+  - first:
+      4: 400040
+    second: WYVERN_ L Forearm
+  - first:
+      4: 400042
+    second: WYVERN_ L Hand
+  - first:
+      4: 400044
+    second: WYVERN_ L HorseLink
+  - first:
+      4: 400046
+    second: WYVERN_ L Thigh
+  - first:
+      4: 400048
+    second: WYVERN_ L Toe0
+  - first:
+      4: 400050
+    second: WYVERN_ L Toe01
+  - first:
+      4: 400052
+    second: WYVERN_ L Toe1
+  - first:
+      4: 400054
+    second: WYVERN_ L Toe11
+  - first:
+      4: 400056
+    second: WYVERN_ L UpperArm
+  - first:
+      4: 400058
+    second: WYVERN_ Neck
+  - first:
+      4: 400060
+    second: WYVERN_ Neck1
+  - first:
+      4: 400062
+    second: WYVERN_ Neck2
+  - first:
+      4: 400064
+    second: WYVERN_ Neck3
+  - first:
+      4: 400066
+    second: WYVERN_ Neck4
+  - first:
+      4: 400068
+    second: WYVERN_ Neck5
+  - first:
+      4: 400070
+    second: WYVERN_ Pelvis
+  - first:
+      4: 400072
+    second: WYVERN_ Ponytail1
+  - first:
+      4: 400074
+    second: WYVERN_ R Calf
+  - first:
+      4: 400076
+    second: WYVERN_ R Clavicle
+  - first:
+      4: 400078
+    second: WYVERN_ R Finger0
+  - first:
+      4: 400080
+    second: WYVERN_ R Finger01
+  - first:
+      4: 400082
+    second: WYVERN_ R Finger02
+  - first:
+      4: 400084
+    second: WYVERN_ R Finger1
+  - first:
+      4: 400086
+    second: WYVERN_ R Finger11
+  - first:
+      4: 400088
+    second: WYVERN_ R Finger12
+  - first:
+      4: 400090
+    second: WYVERN_ R Finger2
+  - first:
+      4: 400092
+    second: WYVERN_ R Finger21
+  - first:
+      4: 400094
+    second: WYVERN_ R Finger22
+  - first:
+      4: 400096
+    second: WYVERN_ R Finger3
+  - first:
+      4: 400098
+    second: WYVERN_ R Finger31
+  - first:
+      4: 400100
+    second: WYVERN_ R Finger32
+  - first:
+      4: 400102
+    second: WYVERN_ R Foot
+  - first:
+      4: 400104
+    second: WYVERN_ R Forearm
+  - first:
+      4: 400106
+    second: WYVERN_ R Hand
+  - first:
+      4: 400108
+    second: WYVERN_ R HorseLink
+  - first:
+      4: 400110
+    second: WYVERN_ R Thigh
+  - first:
+      4: 400112
+    second: WYVERN_ R Toe0
+  - first:
+      4: 400114
+    second: WYVERN_ R Toe01
+  - first:
+      4: 400116
+    second: WYVERN_ R Toe1
+  - first:
+      4: 400118
+    second: WYVERN_ R Toe11
+  - first:
+      4: 400120
+    second: WYVERN_ R UpperArm
+  - first:
+      4: 400122
+    second: WYVERN_ Spine
+  - first:
+      4: 400124
+    second: WYVERN_ Spine1
+  - first:
+      4: 400126
+    second: WYVERN_ Spine2
+  - first:
+      4: 400128
+    second: WYVERN_ Tail
+  - first:
+      4: 400130
+    second: WYVERN_ Tail1
+  - first:
+      4: 400132
+    second: WYVERN_ Tail10
+  - first:
+      4: 400134
+    second: WYVERN_ Tail11
+  - first:
+      4: 400136
+    second: WYVERN_ Tail2
+  - first:
+      4: 400138
+    second: WYVERN_ Tail3
+  - first:
+      4: 400140
+    second: WYVERN_ Tail4
+  - first:
+      4: 400142
+    second: WYVERN_ Tail5
+  - first:
+      4: 400144
+    second: WYVERN_ Tail6
+  - first:
+      4: 400146
+    second: WYVERN_ Tail7
+  - first:
+      4: 400148
+    second: WYVERN_ Tail8
+  - first:
+      4: 400150
+    second: WYVERN_ Tail9
+  - first:
+      43: 4300000
+    second: WYVERN
+  - first:
+      74: 7400000
+    second: Take 001
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      111: 11100000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: WYVERN
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WYVERN
+    second: {fileID: 2100000, guid: 8cb2e0f775b324849a6bcef6ff4ffcea, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips:
+  - 1f08be8c2677b4141b074c61150d2f67
+  - cc3d7a5fa7ea8f249bc247d1cb13fec0
+  - 24dadf80ab102274fafb2d381c1c97c7
+  - a506b290bea775648881e1f755b4ca79
+  - 9caec45259bacc249aedfbed476385b7
+  - f2f58ba305da7d74c989b8e2710a39d4
+  - c81dd96c30dcf874a9fc96134360d78e
+  - de7247626effa1048b7c084e3468ff77
+  - b1ee53b169daaba4b910075ddf524183
+  - bcb8164c5e80c0c4aa790fcd0169b924
+  - 753e2193fa2e6c849b00f92867eeeb9b
+  - d3039e7bb0af0ec48b6d9e5a3002c578
+  - 4da358de9d12f344aa34bef44637a619
+  - fe277be1c864b5541bc637eb4bc1c57a
+  - 6865ba680403a4d4a8c8186019f9fb69
+  - 5c00cbeb8552d344a99859569f6418a6
+  - 633e59460c7d85c49bca5e4ae9fb7797
+  - 042ad9464b0683a488d4f39b4bd681f0
+  - 76681e918c3736c4585f10e042e1db8e
+  - 629324b66f4a91c449c7dc6c7f286f7e
+  - d339dd4973569f74aa8c6588a329e2f3
+  - e51d82d81f9fdbd48aec75ff9ed74b30
+  - a6bf960980fb420448329482b1d2f9af
+  - 0bba1ac25aaf1074daf6247acad7f893
+  - 31afc6b5be0da004bb9cd6cdfefacc40
+  - f12b307c6557f6547bb85e73af1051ff
+  - 3ca2ce569cdedc74296ad5ef460bfd5b
+  - 38ae6e81d3d689d43b161cc69c693e6a
+  - f2af1342d62b8da409db77998f5a6261
+  - 402a99221046b6248840d289c2b5a0b4
+  - f9c139f8ff7ea284d89f7edb1935e6be
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: WYVERN_
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

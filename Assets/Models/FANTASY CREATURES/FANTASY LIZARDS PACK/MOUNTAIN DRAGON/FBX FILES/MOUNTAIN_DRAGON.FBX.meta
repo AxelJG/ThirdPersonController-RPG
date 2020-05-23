@@ -1,0 +1,787 @@
+fileFormatVersion: 2
+guid: f2789654f4939574eab7b07c554c1f1b
+ModelImporter:
+  serializedVersion: 19300
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: MOUNTAIN_DRAGON
+  - first:
+      1: 100004
+    second: MOUNTAIN_DRAGON_
+  - first:
+      1: 100006
+    second: MOUNTAIN_DRAGON_ Head
+  - first:
+      1: 100008
+    second: MOUNTAIN_DRAGON_ L Calf
+  - first:
+      1: 100010
+    second: MOUNTAIN_DRAGON_ L Clavicle
+  - first:
+      1: 100012
+    second: MOUNTAIN_DRAGON_ L Finger0
+  - first:
+      1: 100014
+    second: MOUNTAIN_DRAGON_ L Finger01
+  - first:
+      1: 100016
+    second: MOUNTAIN_DRAGON_ L Finger02
+  - first:
+      1: 100018
+    second: MOUNTAIN_DRAGON_ L Finger1
+  - first:
+      1: 100020
+    second: MOUNTAIN_DRAGON_ L Finger11
+  - first:
+      1: 100022
+    second: MOUNTAIN_DRAGON_ L Finger12
+  - first:
+      1: 100024
+    second: MOUNTAIN_DRAGON_ L Finger2
+  - first:
+      1: 100026
+    second: MOUNTAIN_DRAGON_ L Finger21
+  - first:
+      1: 100028
+    second: MOUNTAIN_DRAGON_ L Finger22
+  - first:
+      1: 100030
+    second: MOUNTAIN_DRAGON_ L Finger3
+  - first:
+      1: 100032
+    second: MOUNTAIN_DRAGON_ L Finger31
+  - first:
+      1: 100034
+    second: MOUNTAIN_DRAGON_ L Finger32
+  - first:
+      1: 100036
+    second: MOUNTAIN_DRAGON_ L Foot
+  - first:
+      1: 100038
+    second: MOUNTAIN_DRAGON_ L Forearm
+  - first:
+      1: 100040
+    second: MOUNTAIN_DRAGON_ L Hand
+  - first:
+      1: 100042
+    second: MOUNTAIN_DRAGON_ L HorseLink
+  - first:
+      1: 100044
+    second: MOUNTAIN_DRAGON_ L Thigh
+  - first:
+      1: 100046
+    second: MOUNTAIN_DRAGON_ L Toe0
+  - first:
+      1: 100048
+    second: MOUNTAIN_DRAGON_ L Toe01
+  - first:
+      1: 100050
+    second: MOUNTAIN_DRAGON_ L Toe1
+  - first:
+      1: 100052
+    second: MOUNTAIN_DRAGON_ L Toe11
+  - first:
+      1: 100054
+    second: MOUNTAIN_DRAGON_ L UpperArm
+  - first:
+      1: 100056
+    second: MOUNTAIN_DRAGON_ Neck
+  - first:
+      1: 100058
+    second: MOUNTAIN_DRAGON_ Neck1
+  - first:
+      1: 100060
+    second: MOUNTAIN_DRAGON_ Neck2
+  - first:
+      1: 100062
+    second: MOUNTAIN_DRAGON_ Neck3
+  - first:
+      1: 100064
+    second: MOUNTAIN_DRAGON_ Neck4
+  - first:
+      1: 100066
+    second: MOUNTAIN_DRAGON_ Neck5
+  - first:
+      1: 100068
+    second: MOUNTAIN_DRAGON_ Pelvis
+  - first:
+      1: 100070
+    second: MOUNTAIN_DRAGON_ Ponytail1
+  - first:
+      1: 100072
+    second: MOUNTAIN_DRAGON_ R Calf
+  - first:
+      1: 100074
+    second: MOUNTAIN_DRAGON_ R Clavicle
+  - first:
+      1: 100076
+    second: MOUNTAIN_DRAGON_ R Finger0
+  - first:
+      1: 100078
+    second: MOUNTAIN_DRAGON_ R Finger01
+  - first:
+      1: 100080
+    second: MOUNTAIN_DRAGON_ R Finger02
+  - first:
+      1: 100082
+    second: MOUNTAIN_DRAGON_ R Finger1
+  - first:
+      1: 100084
+    second: MOUNTAIN_DRAGON_ R Finger11
+  - first:
+      1: 100086
+    second: MOUNTAIN_DRAGON_ R Finger12
+  - first:
+      1: 100088
+    second: MOUNTAIN_DRAGON_ R Finger2
+  - first:
+      1: 100090
+    second: MOUNTAIN_DRAGON_ R Finger21
+  - first:
+      1: 100092
+    second: MOUNTAIN_DRAGON_ R Finger22
+  - first:
+      1: 100094
+    second: MOUNTAIN_DRAGON_ R Finger3
+  - first:
+      1: 100096
+    second: MOUNTAIN_DRAGON_ R Finger31
+  - first:
+      1: 100098
+    second: MOUNTAIN_DRAGON_ R Finger32
+  - first:
+      1: 100100
+    second: MOUNTAIN_DRAGON_ R Foot
+  - first:
+      1: 100102
+    second: MOUNTAIN_DRAGON_ R Forearm
+  - first:
+      1: 100104
+    second: MOUNTAIN_DRAGON_ R Hand
+  - first:
+      1: 100106
+    second: MOUNTAIN_DRAGON_ R HorseLink
+  - first:
+      1: 100108
+    second: MOUNTAIN_DRAGON_ R Thigh
+  - first:
+      1: 100110
+    second: MOUNTAIN_DRAGON_ R Toe0
+  - first:
+      1: 100112
+    second: MOUNTAIN_DRAGON_ R Toe01
+  - first:
+      1: 100114
+    second: MOUNTAIN_DRAGON_ R Toe1
+  - first:
+      1: 100116
+    second: MOUNTAIN_DRAGON_ R Toe11
+  - first:
+      1: 100118
+    second: MOUNTAIN_DRAGON_ R UpperArm
+  - first:
+      1: 100120
+    second: MOUNTAIN_DRAGON_ Spine
+  - first:
+      1: 100122
+    second: MOUNTAIN_DRAGON_ Spine1
+  - first:
+      1: 100124
+    second: MOUNTAIN_DRAGON_ Spine2
+  - first:
+      1: 100126
+    second: MOUNTAIN_DRAGON_ Tail
+  - first:
+      1: 100128
+    second: MOUNTAIN_DRAGON_ Tail1
+  - first:
+      1: 100130
+    second: MOUNTAIN_DRAGON_ Tail10
+  - first:
+      1: 100132
+    second: MOUNTAIN_DRAGON_ Tail11
+  - first:
+      1: 100134
+    second: MOUNTAIN_DRAGON_ Tail12
+  - first:
+      1: 100136
+    second: MOUNTAIN_DRAGON_ Tail13
+  - first:
+      1: 100138
+    second: MOUNTAIN_DRAGON_ Tail2
+  - first:
+      1: 100140
+    second: MOUNTAIN_DRAGON_ Tail3
+  - first:
+      1: 100142
+    second: MOUNTAIN_DRAGON_ Tail4
+  - first:
+      1: 100144
+    second: MOUNTAIN_DRAGON_ Tail5
+  - first:
+      1: 100146
+    second: MOUNTAIN_DRAGON_ Tail6
+  - first:
+      1: 100148
+    second: MOUNTAIN_DRAGON_ Tail7
+  - first:
+      1: 100150
+    second: MOUNTAIN_DRAGON_ Tail8
+  - first:
+      1: 100152
+    second: MOUNTAIN_DRAGON_ Tail9
+  - first:
+      1: 100154
+    second: MOUNTAIN_DRAGON_WING_L_ARM
+  - first:
+      1: 100156
+    second: MOUNTAIN_DRAGON_WING_L_FINGER_A_1
+  - first:
+      1: 100158
+    second: MOUNTAIN_DRAGON_WING_L_FINGER_A_2
+  - first:
+      1: 100160
+    second: MOUNTAIN_DRAGON_WING_L_FINGER_B_1
+  - first:
+      1: 100162
+    second: MOUNTAIN_DRAGON_WING_L_FINGER_B_2
+  - first:
+      1: 100164
+    second: MOUNTAIN_DRAGON_WING_L_FINGER_B_3
+  - first:
+      1: 100166
+    second: MOUNTAIN_DRAGON_WING_L_FINGER_C_1
+  - first:
+      1: 100168
+    second: MOUNTAIN_DRAGON_WING_L_FINGER_C_2
+  - first:
+      1: 100170
+    second: MOUNTAIN_DRAGON_WING_L_FINGER_C_3
+  - first:
+      1: 100172
+    second: MOUNTAIN_DRAGON_WING_L_FINGER_D_1
+  - first:
+      1: 100174
+    second: MOUNTAIN_DRAGON_WING_L_FINGER_D_2
+  - first:
+      1: 100176
+    second: MOUNTAIN_DRAGON_WING_L_FINGER_D_3
+  - first:
+      1: 100178
+    second: MOUNTAIN_DRAGON_WING_L_FOREARM
+  - first:
+      1: 100180
+    second: MOUNTAIN_DRAGON_WING_L_HAND
+  - first:
+      1: 100182
+    second: MOUNTAIN_DRAGON_WING_R_ARM
+  - first:
+      1: 100184
+    second: MOUNTAIN_DRAGON_WING_R_FINGER_A_1
+  - first:
+      1: 100186
+    second: MOUNTAIN_DRAGON_WING_R_FINGER_A_2
+  - first:
+      1: 100188
+    second: MOUNTAIN_DRAGON_WING_R_FINGER_B_1
+  - first:
+      1: 100190
+    second: MOUNTAIN_DRAGON_WING_R_FINGER_B_2
+  - first:
+      1: 100192
+    second: MOUNTAIN_DRAGON_WING_R_FINGER_B_3
+  - first:
+      1: 100194
+    second: MOUNTAIN_DRAGON_WING_R_FINGER_C_1
+  - first:
+      1: 100196
+    second: MOUNTAIN_DRAGON_WING_R_FINGER_C_2
+  - first:
+      1: 100198
+    second: MOUNTAIN_DRAGON_WING_R_FINGER_C_3
+  - first:
+      1: 100200
+    second: MOUNTAIN_DRAGON_WING_R_FINGER_D_1
+  - first:
+      1: 100202
+    second: MOUNTAIN_DRAGON_WING_R_FINGER_D_2
+  - first:
+      1: 100204
+    second: MOUNTAIN_DRAGON_WING_R_FINGER_D_3
+  - first:
+      1: 100206
+    second: MOUNTAIN_DRAGON_WING_R_FOREARM
+  - first:
+      1: 100208
+    second: MOUNTAIN_DRAGON_WING_R_HAND
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: MOUNTAIN_DRAGON
+  - first:
+      4: 400004
+    second: MOUNTAIN_DRAGON_
+  - first:
+      4: 400006
+    second: MOUNTAIN_DRAGON_ Head
+  - first:
+      4: 400008
+    second: MOUNTAIN_DRAGON_ L Calf
+  - first:
+      4: 400010
+    second: MOUNTAIN_DRAGON_ L Clavicle
+  - first:
+      4: 400012
+    second: MOUNTAIN_DRAGON_ L Finger0
+  - first:
+      4: 400014
+    second: MOUNTAIN_DRAGON_ L Finger01
+  - first:
+      4: 400016
+    second: MOUNTAIN_DRAGON_ L Finger02
+  - first:
+      4: 400018
+    second: MOUNTAIN_DRAGON_ L Finger1
+  - first:
+      4: 400020
+    second: MOUNTAIN_DRAGON_ L Finger11
+  - first:
+      4: 400022
+    second: MOUNTAIN_DRAGON_ L Finger12
+  - first:
+      4: 400024
+    second: MOUNTAIN_DRAGON_ L Finger2
+  - first:
+      4: 400026
+    second: MOUNTAIN_DRAGON_ L Finger21
+  - first:
+      4: 400028
+    second: MOUNTAIN_DRAGON_ L Finger22
+  - first:
+      4: 400030
+    second: MOUNTAIN_DRAGON_ L Finger3
+  - first:
+      4: 400032
+    second: MOUNTAIN_DRAGON_ L Finger31
+  - first:
+      4: 400034
+    second: MOUNTAIN_DRAGON_ L Finger32
+  - first:
+      4: 400036
+    second: MOUNTAIN_DRAGON_ L Foot
+  - first:
+      4: 400038
+    second: MOUNTAIN_DRAGON_ L Forearm
+  - first:
+      4: 400040
+    second: MOUNTAIN_DRAGON_ L Hand
+  - first:
+      4: 400042
+    second: MOUNTAIN_DRAGON_ L HorseLink
+  - first:
+      4: 400044
+    second: MOUNTAIN_DRAGON_ L Thigh
+  - first:
+      4: 400046
+    second: MOUNTAIN_DRAGON_ L Toe0
+  - first:
+      4: 400048
+    second: MOUNTAIN_DRAGON_ L Toe01
+  - first:
+      4: 400050
+    second: MOUNTAIN_DRAGON_ L Toe1
+  - first:
+      4: 400052
+    second: MOUNTAIN_DRAGON_ L Toe11
+  - first:
+      4: 400054
+    second: MOUNTAIN_DRAGON_ L UpperArm
+  - first:
+      4: 400056
+    second: MOUNTAIN_DRAGON_ Neck
+  - first:
+      4: 400058
+    second: MOUNTAIN_DRAGON_ Neck1
+  - first:
+      4: 400060
+    second: MOUNTAIN_DRAGON_ Neck2
+  - first:
+      4: 400062
+    second: MOUNTAIN_DRAGON_ Neck3
+  - first:
+      4: 400064
+    second: MOUNTAIN_DRAGON_ Neck4
+  - first:
+      4: 400066
+    second: MOUNTAIN_DRAGON_ Neck5
+  - first:
+      4: 400068
+    second: MOUNTAIN_DRAGON_ Pelvis
+  - first:
+      4: 400070
+    second: MOUNTAIN_DRAGON_ Ponytail1
+  - first:
+      4: 400072
+    second: MOUNTAIN_DRAGON_ R Calf
+  - first:
+      4: 400074
+    second: MOUNTAIN_DRAGON_ R Clavicle
+  - first:
+      4: 400076
+    second: MOUNTAIN_DRAGON_ R Finger0
+  - first:
+      4: 400078
+    second: MOUNTAIN_DRAGON_ R Finger01
+  - first:
+      4: 400080
+    second: MOUNTAIN_DRAGON_ R Finger02
+  - first:
+      4: 400082
+    second: MOUNTAIN_DRAGON_ R Finger1
+  - first:
+      4: 400084
+    second: MOUNTAIN_DRAGON_ R Finger11
+  - first:
+      4: 400086
+    second: MOUNTAIN_DRAGON_ R Finger12
+  - first:
+      4: 400088
+    second: MOUNTAIN_DRAGON_ R Finger2
+  - first:
+      4: 400090
+    second: MOUNTAIN_DRAGON_ R Finger21
+  - first:
+      4: 400092
+    second: MOUNTAIN_DRAGON_ R Finger22
+  - first:
+      4: 400094
+    second: MOUNTAIN_DRAGON_ R Finger3
+  - first:
+      4: 400096
+    second: MOUNTAIN_DRAGON_ R Finger31
+  - first:
+      4: 400098
+    second: MOUNTAIN_DRAGON_ R Finger32
+  - first:
+      4: 400100
+    second: MOUNTAIN_DRAGON_ R Foot
+  - first:
+      4: 400102
+    second: MOUNTAIN_DRAGON_ R Forearm
+  - first:
+      4: 400104
+    second: MOUNTAIN_DRAGON_ R Hand
+  - first:
+      4: 400106
+    second: MOUNTAIN_DRAGON_ R HorseLink
+  - first:
+      4: 400108
+    second: MOUNTAIN_DRAGON_ R Thigh
+  - first:
+      4: 400110
+    second: MOUNTAIN_DRAGON_ R Toe0
+  - first:
+      4: 400112
+    second: MOUNTAIN_DRAGON_ R Toe01
+  - first:
+      4: 400114
+    second: MOUNTAIN_DRAGON_ R Toe1
+  - first:
+      4: 400116
+    second: MOUNTAIN_DRAGON_ R Toe11
+  - first:
+      4: 400118
+    second: MOUNTAIN_DRAGON_ R UpperArm
+  - first:
+      4: 400120
+    second: MOUNTAIN_DRAGON_ Spine
+  - first:
+      4: 400122
+    second: MOUNTAIN_DRAGON_ Spine1
+  - first:
+      4: 400124
+    second: MOUNTAIN_DRAGON_ Spine2
+  - first:
+      4: 400126
+    second: MOUNTAIN_DRAGON_ Tail
+  - first:
+      4: 400128
+    second: MOUNTAIN_DRAGON_ Tail1
+  - first:
+      4: 400130
+    second: MOUNTAIN_DRAGON_ Tail10
+  - first:
+      4: 400132
+    second: MOUNTAIN_DRAGON_ Tail11
+  - first:
+      4: 400134
+    second: MOUNTAIN_DRAGON_ Tail12
+  - first:
+      4: 400136
+    second: MOUNTAIN_DRAGON_ Tail13
+  - first:
+      4: 400138
+    second: MOUNTAIN_DRAGON_ Tail2
+  - first:
+      4: 400140
+    second: MOUNTAIN_DRAGON_ Tail3
+  - first:
+      4: 400142
+    second: MOUNTAIN_DRAGON_ Tail4
+  - first:
+      4: 400144
+    second: MOUNTAIN_DRAGON_ Tail5
+  - first:
+      4: 400146
+    second: MOUNTAIN_DRAGON_ Tail6
+  - first:
+      4: 400148
+    second: MOUNTAIN_DRAGON_ Tail7
+  - first:
+      4: 400150
+    second: MOUNTAIN_DRAGON_ Tail8
+  - first:
+      4: 400152
+    second: MOUNTAIN_DRAGON_ Tail9
+  - first:
+      4: 400154
+    second: MOUNTAIN_DRAGON_WING_L_ARM
+  - first:
+      4: 400156
+    second: MOUNTAIN_DRAGON_WING_L_FINGER_A_1
+  - first:
+      4: 400158
+    second: MOUNTAIN_DRAGON_WING_L_FINGER_A_2
+  - first:
+      4: 400160
+    second: MOUNTAIN_DRAGON_WING_L_FINGER_B_1
+  - first:
+      4: 400162
+    second: MOUNTAIN_DRAGON_WING_L_FINGER_B_2
+  - first:
+      4: 400164
+    second: MOUNTAIN_DRAGON_WING_L_FINGER_B_3
+  - first:
+      4: 400166
+    second: MOUNTAIN_DRAGON_WING_L_FINGER_C_1
+  - first:
+      4: 400168
+    second: MOUNTAIN_DRAGON_WING_L_FINGER_C_2
+  - first:
+      4: 400170
+    second: MOUNTAIN_DRAGON_WING_L_FINGER_C_3
+  - first:
+      4: 400172
+    second: MOUNTAIN_DRAGON_WING_L_FINGER_D_1
+  - first:
+      4: 400174
+    second: MOUNTAIN_DRAGON_WING_L_FINGER_D_2
+  - first:
+      4: 400176
+    second: MOUNTAIN_DRAGON_WING_L_FINGER_D_3
+  - first:
+      4: 400178
+    second: MOUNTAIN_DRAGON_WING_L_FOREARM
+  - first:
+      4: 400180
+    second: MOUNTAIN_DRAGON_WING_L_HAND
+  - first:
+      4: 400182
+    second: MOUNTAIN_DRAGON_WING_R_ARM
+  - first:
+      4: 400184
+    second: MOUNTAIN_DRAGON_WING_R_FINGER_A_1
+  - first:
+      4: 400186
+    second: MOUNTAIN_DRAGON_WING_R_FINGER_A_2
+  - first:
+      4: 400188
+    second: MOUNTAIN_DRAGON_WING_R_FINGER_B_1
+  - first:
+      4: 400190
+    second: MOUNTAIN_DRAGON_WING_R_FINGER_B_2
+  - first:
+      4: 400192
+    second: MOUNTAIN_DRAGON_WING_R_FINGER_B_3
+  - first:
+      4: 400194
+    second: MOUNTAIN_DRAGON_WING_R_FINGER_C_1
+  - first:
+      4: 400196
+    second: MOUNTAIN_DRAGON_WING_R_FINGER_C_2
+  - first:
+      4: 400198
+    second: MOUNTAIN_DRAGON_WING_R_FINGER_C_3
+  - first:
+      4: 400200
+    second: MOUNTAIN_DRAGON_WING_R_FINGER_D_1
+  - first:
+      4: 400202
+    second: MOUNTAIN_DRAGON_WING_R_FINGER_D_2
+  - first:
+      4: 400204
+    second: MOUNTAIN_DRAGON_WING_R_FINGER_D_3
+  - first:
+      4: 400206
+    second: MOUNTAIN_DRAGON_WING_R_FOREARM
+  - first:
+      4: 400208
+    second: MOUNTAIN_DRAGON_WING_R_HAND
+  - first:
+      43: 4300000
+    second: MOUNTAIN_DRAGON
+  - first:
+      74: 7400000
+    second: Take 001
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      111: 11100000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: MOUNTAIN_DRAGON
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: MOUNTAIN_DRAGON
+    second: {fileID: 2100000, guid: f2eb83251d3db7945a235705a2b18a25, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 2
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips:
+  - e6fe1bbed38245047bf0225914b64e2c
+  - 920b7eeb8529c654fade5fe852cce2be
+  - 0ce5f5f9c153686488c61d4581204ccd
+  - f6e66c2669658a54fbc852fc47b8f4e0
+  - 29f633f2044782d4c9ab074351e20e98
+  - f2e9698adcc9d694597f9afb653b0316
+  - 502b01615297f5249a3fc127c2463438
+  - 0cf6fda12d0abf8478ce72e57274d13d
+  - 28f3ec962af4bcc47b8d456fd249946b
+  - 41607372a769d934bb2de626b1739ecf
+  - 46dd2303277717f4d94c9581a04688fd
+  - eaa86fa96d50f1f46ac07a49b2eca0ee
+  - 379a341d67d1d434c9faabe3f872b024
+  - 5e728740629d4b04faf4a797df0a771d
+  - 04ccc16fb570689439c13d68087a5916
+  - db7d5fac32303854da8c7048d623ffb8
+  - eeb63c889fb41d143adb8aa748963430
+  - 9c0c4a3300b98e046b83f5b30254d996
+  - d3c640bba76729742a1b79d2b10cd496
+  - aca9ffd7c0d54dc49a2d70186c250900
+  - 4a391ac351d3e48478b654c02458b9cf
+  - 18bd316c771fafe44b73bf9c9ec9559b
+  - d37bc1186f4156d43ad501d2c9028dd3
+  - 5bcb327fda2b6d24e8c524ed4614a1d2
+  - 1738cce4dfc7f3349a14e9028c183877
+  - df0135251f041c14186f2625c6c08b92
+  - 9cf24efbc45126842aa55df26cabe055
+  - ac9689ac2bbf45845a431355b697fc3c
+  - f6dbf6f816af0af45b25cb0656f13589
+  - 1576e5de182d0514ebd1d02e1771c4f8
+  - 045f62bb4b840cb4d9cebe62a67c867a
+  - 743efabad9c4e3c4a938cd6843bf9576
+  - 18700e07c769e3c488b609b1f6369add
+  - 506e328adc1fd8947a906ae108871eaa
+  - 46a08fc77d5972c4f9b2928bd29f82b9
+  - 77b99246919a177479626070db66bf4c
+  - 03b669edd760fae4b8ace9c24790095c
+  - 1b814f3da7202214dbd00a6d658c4990
+  - c27c0c67bb7cb46498feb13f75669907
+  - 6464a7fbd66961f4aadf5391249ff565
+  - 5e145f6495a33c7458015288d0b47227
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: MOUNTAIN_DRAGON_
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

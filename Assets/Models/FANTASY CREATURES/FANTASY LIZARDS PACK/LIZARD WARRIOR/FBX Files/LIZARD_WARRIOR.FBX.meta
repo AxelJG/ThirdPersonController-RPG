@@ -1,0 +1,958 @@
+fileFormatVersion: 2
+guid: 5a184a64358a63340946479637552e9f
+ModelImporter:
+  serializedVersion: 19300
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: default001
+  - first:
+      1: 100002
+    second: //RootNode
+  - first:
+      1: 100004
+    second: LIZARD_WARRIOR
+  - first:
+      1: 100006
+    second: LIZARD_WARRIOR_
+  - first:
+      1: 100008
+    second: LIZARD_WARRIOR_ Head
+  - first:
+      1: 100010
+    second: LIZARD_WARRIOR_ L Calf
+  - first:
+      1: 100012
+    second: LIZARD_WARRIOR_ L Clavicle
+  - first:
+      1: 100014
+    second: LIZARD_WARRIOR_ L Finger0
+  - first:
+      1: 100016
+    second: LIZARD_WARRIOR_ L Finger01
+  - first:
+      1: 100018
+    second: LIZARD_WARRIOR_ L Finger02
+  - first:
+      1: 100020
+    second: LIZARD_WARRIOR_ L Finger1
+  - first:
+      1: 100022
+    second: LIZARD_WARRIOR_ L Finger11
+  - first:
+      1: 100024
+    second: LIZARD_WARRIOR_ L Finger12
+  - first:
+      1: 100026
+    second: LIZARD_WARRIOR_ L Finger2
+  - first:
+      1: 100028
+    second: LIZARD_WARRIOR_ L Finger21
+  - first:
+      1: 100030
+    second: LIZARD_WARRIOR_ L Finger22
+  - first:
+      1: 100032
+    second: LIZARD_WARRIOR_ L Finger3
+  - first:
+      1: 100034
+    second: LIZARD_WARRIOR_ L Finger31
+  - first:
+      1: 100036
+    second: LIZARD_WARRIOR_ L Finger32
+  - first:
+      1: 100038
+    second: LIZARD_WARRIOR_ L Foot
+  - first:
+      1: 100040
+    second: LIZARD_WARRIOR_ L Forearm
+  - first:
+      1: 100042
+    second: LIZARD_WARRIOR_ L Hand
+  - first:
+      1: 100044
+    second: LIZARD_WARRIOR_ L Thigh
+  - first:
+      1: 100046
+    second: LIZARD_WARRIOR_ L Toe0
+  - first:
+      1: 100048
+    second: LIZARD_WARRIOR_ L Toe01
+  - first:
+      1: 100050
+    second: LIZARD_WARRIOR_ L Toe02
+  - first:
+      1: 100052
+    second: LIZARD_WARRIOR_ L Toe1
+  - first:
+      1: 100054
+    second: LIZARD_WARRIOR_ L Toe11
+  - first:
+      1: 100056
+    second: LIZARD_WARRIOR_ L Toe12
+  - first:
+      1: 100058
+    second: LIZARD_WARRIOR_ L Toe2
+  - first:
+      1: 100060
+    second: LIZARD_WARRIOR_ L Toe21
+  - first:
+      1: 100062
+    second: LIZARD_WARRIOR_ L Toe22
+  - first:
+      1: 100064
+    second: LIZARD_WARRIOR_ L Toe3
+  - first:
+      1: 100066
+    second: LIZARD_WARRIOR_ L Toe31
+  - first:
+      1: 100068
+    second: LIZARD_WARRIOR_ L Toe32
+  - first:
+      1: 100070
+    second: LIZARD_WARRIOR_ L UpperArm
+  - first:
+      1: 100072
+    second: LIZARD_WARRIOR_ Neck
+  - first:
+      1: 100074
+    second: LIZARD_WARRIOR_ Neck1
+  - first:
+      1: 100076
+    second: LIZARD_WARRIOR_ Neck2
+  - first:
+      1: 100078
+    second: LIZARD_WARRIOR_ Pelvis
+  - first:
+      1: 100080
+    second: LIZARD_WARRIOR_ Ponytail1
+  - first:
+      1: 100082
+    second: LIZARD_WARRIOR_ R Calf
+  - first:
+      1: 100084
+    second: LIZARD_WARRIOR_ R Clavicle
+  - first:
+      1: 100086
+    second: LIZARD_WARRIOR_ R Finger0
+  - first:
+      1: 100088
+    second: LIZARD_WARRIOR_ R Finger01
+  - first:
+      1: 100090
+    second: LIZARD_WARRIOR_ R Finger02
+  - first:
+      1: 100092
+    second: LIZARD_WARRIOR_ R Finger1
+  - first:
+      1: 100094
+    second: LIZARD_WARRIOR_ R Finger11
+  - first:
+      1: 100096
+    second: LIZARD_WARRIOR_ R Finger12
+  - first:
+      1: 100098
+    second: LIZARD_WARRIOR_ R Finger2
+  - first:
+      1: 100100
+    second: LIZARD_WARRIOR_ R Finger21
+  - first:
+      1: 100102
+    second: LIZARD_WARRIOR_ R Finger22
+  - first:
+      1: 100104
+    second: LIZARD_WARRIOR_ R Finger3
+  - first:
+      1: 100106
+    second: LIZARD_WARRIOR_ R Finger31
+  - first:
+      1: 100108
+    second: LIZARD_WARRIOR_ R Finger32
+  - first:
+      1: 100110
+    second: LIZARD_WARRIOR_ R Foot
+  - first:
+      1: 100112
+    second: LIZARD_WARRIOR_ R Forearm
+  - first:
+      1: 100114
+    second: LIZARD_WARRIOR_ R Hand
+  - first:
+      1: 100116
+    second: LIZARD_WARRIOR_ R Thigh
+  - first:
+      1: 100118
+    second: LIZARD_WARRIOR_ R Toe0
+  - first:
+      1: 100120
+    second: LIZARD_WARRIOR_ R Toe01
+  - first:
+      1: 100122
+    second: LIZARD_WARRIOR_ R Toe02
+  - first:
+      1: 100124
+    second: LIZARD_WARRIOR_ R Toe1
+  - first:
+      1: 100126
+    second: LIZARD_WARRIOR_ R Toe11
+  - first:
+      1: 100128
+    second: LIZARD_WARRIOR_ R Toe12
+  - first:
+      1: 100130
+    second: LIZARD_WARRIOR_ R Toe2
+  - first:
+      1: 100132
+    second: LIZARD_WARRIOR_ R Toe21
+  - first:
+      1: 100134
+    second: LIZARD_WARRIOR_ R Toe22
+  - first:
+      1: 100136
+    second: LIZARD_WARRIOR_ R Toe3
+  - first:
+      1: 100138
+    second: LIZARD_WARRIOR_ R Toe31
+  - first:
+      1: 100140
+    second: LIZARD_WARRIOR_ R Toe32
+  - first:
+      1: 100142
+    second: LIZARD_WARRIOR_ R UpperArm
+  - first:
+      1: 100144
+    second: LIZARD_WARRIOR_ Spine
+  - first:
+      1: 100146
+    second: LIZARD_WARRIOR_ Spine1
+  - first:
+      1: 100148
+    second: LIZARD_WARRIOR_ Tail
+  - first:
+      1: 100150
+    second: LIZARD_WARRIOR_ Tail1
+  - first:
+      1: 100152
+    second: LIZARD_WARRIOR_ Tail2
+  - first:
+      1: 100154
+    second: LIZARD_WARRIOR_ Tail3
+  - first:
+      1: 100156
+    second: LIZARD_WARRIOR_ Tail4
+  - first:
+      1: 100158
+    second: LIZARD_WARRIOR_ Tail5
+  - first:
+      1: 100160
+    second: LIZARD_WARRIOR_ Tail6
+  - first:
+      1: 100162
+    second: LIZARD_WARRIOR_ Tail7
+  - first:
+      1: 100164
+    second: LIZARD_WARRIOR_ Tail8
+  - first:
+      1: 100166
+    second: LIZARD_WARRIOR_ Tail9
+  - first:
+      1: 100168
+    second: LIZARD_WARRIOR_FILL_L_A_01
+  - first:
+      1: 100170
+    second: LIZARD_WARRIOR_FILL_L_A_02
+  - first:
+      1: 100172
+    second: LIZARD_WARRIOR_FILL_L_B_01
+  - first:
+      1: 100174
+    second: LIZARD_WARRIOR_FILL_L_B_02
+  - first:
+      1: 100176
+    second: LIZARD_WARRIOR_FILL_L_C_01
+  - first:
+      1: 100178
+    second: LIZARD_WARRIOR_FILL_L_C_02
+  - first:
+      1: 100180
+    second: LIZARD_WARRIOR_FILL_L_D_01
+  - first:
+      1: 100182
+    second: LIZARD_WARRIOR_FILL_L_D_02
+  - first:
+      1: 100184
+    second: LIZARD_WARRIOR_FILL_L_E_01
+  - first:
+      1: 100186
+    second: LIZARD_WARRIOR_FILL_L_E_02
+  - first:
+      1: 100188
+    second: LIZARD_WARRIOR_FILL_Mid_01
+  - first:
+      1: 100190
+    second: LIZARD_WARRIOR_FILL_Mid_02
+  - first:
+      1: 100192
+    second: LIZARD_WARRIOR_FILL_R_A_01
+  - first:
+      1: 100194
+    second: LIZARD_WARRIOR_FILL_R_A_02
+  - first:
+      1: 100196
+    second: LIZARD_WARRIOR_FILL_R_B_01
+  - first:
+      1: 100198
+    second: LIZARD_WARRIOR_FILL_R_B_02
+  - first:
+      1: 100200
+    second: LIZARD_WARRIOR_FILL_R_C_01
+  - first:
+      1: 100202
+    second: LIZARD_WARRIOR_FILL_R_C_02
+  - first:
+      1: 100204
+    second: LIZARD_WARRIOR_FILL_R_D_01
+  - first:
+      1: 100206
+    second: LIZARD_WARRIOR_FILL_R_D_02
+  - first:
+      1: 100208
+    second: LIZARD_WARRIOR_FILL_R_E_01
+  - first:
+      1: 100210
+    second: LIZARD_WARRIOR_FILL_R_E_02
+  - first:
+      1: 100212
+    second: LIZARD_WARRIOR_SPEAR
+  - first:
+      1: 100214
+    second: LZARD_WARRIOR_TONGUE_01
+  - first:
+      1: 100216
+    second: LZARD_WARRIOR_TONGUE_02
+  - first:
+      1: 100218
+    second: LZARD_WARRIOR_TONGUE_03
+  - first:
+      1: 100220
+    second: LZARD_WARRIOR_TONGUE_04
+  - first:
+      1: 100222
+    second: ROOT_
+  - first:
+      1: 100224
+    second: SPEAR
+  - first:
+      1: 100226
+    second: LIZARD_WARRIOR_Morph_fatBelly
+  - first:
+      1: 100228
+    second: LIZARD_WARRIOR_Morph_LongMuzzle
+  - first:
+      1: 100230
+    second: LIZARD_WARRIOR_Morph_LonHorns
+  - first:
+      1: 100232
+    second: LIZARD_WARRIOR_Morph_Muscular
+  - first:
+      1: 100234
+    second: LIZARD_WARRIOR_Morph_ShortBackSpikes
+  - first:
+      1: 100236
+    second: LIZARD_WARRIOR_Morph_ShortTailSpikes
+  - first:
+      1: 100238
+    second: LIZARD_WARRIOR_Morph_Skinnyq
+  - first:
+      1: 100240
+    second: LIZARD_WARRIOR_Morph_TinyHorns
+  - first:
+      4: 400000
+    second: default001
+  - first:
+      4: 400002
+    second: //RootNode
+  - first:
+      4: 400004
+    second: LIZARD_WARRIOR
+  - first:
+      4: 400006
+    second: LIZARD_WARRIOR_
+  - first:
+      4: 400008
+    second: LIZARD_WARRIOR_ Head
+  - first:
+      4: 400010
+    second: LIZARD_WARRIOR_ L Calf
+  - first:
+      4: 400012
+    second: LIZARD_WARRIOR_ L Clavicle
+  - first:
+      4: 400014
+    second: LIZARD_WARRIOR_ L Finger0
+  - first:
+      4: 400016
+    second: LIZARD_WARRIOR_ L Finger01
+  - first:
+      4: 400018
+    second: LIZARD_WARRIOR_ L Finger02
+  - first:
+      4: 400020
+    second: LIZARD_WARRIOR_ L Finger1
+  - first:
+      4: 400022
+    second: LIZARD_WARRIOR_ L Finger11
+  - first:
+      4: 400024
+    second: LIZARD_WARRIOR_ L Finger12
+  - first:
+      4: 400026
+    second: LIZARD_WARRIOR_ L Finger2
+  - first:
+      4: 400028
+    second: LIZARD_WARRIOR_ L Finger21
+  - first:
+      4: 400030
+    second: LIZARD_WARRIOR_ L Finger22
+  - first:
+      4: 400032
+    second: LIZARD_WARRIOR_ L Finger3
+  - first:
+      4: 400034
+    second: LIZARD_WARRIOR_ L Finger31
+  - first:
+      4: 400036
+    second: LIZARD_WARRIOR_ L Finger32
+  - first:
+      4: 400038
+    second: LIZARD_WARRIOR_ L Foot
+  - first:
+      4: 400040
+    second: LIZARD_WARRIOR_ L Forearm
+  - first:
+      4: 400042
+    second: LIZARD_WARRIOR_ L Hand
+  - first:
+      4: 400044
+    second: LIZARD_WARRIOR_ L Thigh
+  - first:
+      4: 400046
+    second: LIZARD_WARRIOR_ L Toe0
+  - first:
+      4: 400048
+    second: LIZARD_WARRIOR_ L Toe01
+  - first:
+      4: 400050
+    second: LIZARD_WARRIOR_ L Toe02
+  - first:
+      4: 400052
+    second: LIZARD_WARRIOR_ L Toe1
+  - first:
+      4: 400054
+    second: LIZARD_WARRIOR_ L Toe11
+  - first:
+      4: 400056
+    second: LIZARD_WARRIOR_ L Toe12
+  - first:
+      4: 400058
+    second: LIZARD_WARRIOR_ L Toe2
+  - first:
+      4: 400060
+    second: LIZARD_WARRIOR_ L Toe21
+  - first:
+      4: 400062
+    second: LIZARD_WARRIOR_ L Toe22
+  - first:
+      4: 400064
+    second: LIZARD_WARRIOR_ L Toe3
+  - first:
+      4: 400066
+    second: LIZARD_WARRIOR_ L Toe31
+  - first:
+      4: 400068
+    second: LIZARD_WARRIOR_ L Toe32
+  - first:
+      4: 400070
+    second: LIZARD_WARRIOR_ L UpperArm
+  - first:
+      4: 400072
+    second: LIZARD_WARRIOR_ Neck
+  - first:
+      4: 400074
+    second: LIZARD_WARRIOR_ Neck1
+  - first:
+      4: 400076
+    second: LIZARD_WARRIOR_ Neck2
+  - first:
+      4: 400078
+    second: LIZARD_WARRIOR_ Pelvis
+  - first:
+      4: 400080
+    second: LIZARD_WARRIOR_ Ponytail1
+  - first:
+      4: 400082
+    second: LIZARD_WARRIOR_ R Calf
+  - first:
+      4: 400084
+    second: LIZARD_WARRIOR_ R Clavicle
+  - first:
+      4: 400086
+    second: LIZARD_WARRIOR_ R Finger0
+  - first:
+      4: 400088
+    second: LIZARD_WARRIOR_ R Finger01
+  - first:
+      4: 400090
+    second: LIZARD_WARRIOR_ R Finger02
+  - first:
+      4: 400092
+    second: LIZARD_WARRIOR_ R Finger1
+  - first:
+      4: 400094
+    second: LIZARD_WARRIOR_ R Finger11
+  - first:
+      4: 400096
+    second: LIZARD_WARRIOR_ R Finger12
+  - first:
+      4: 400098
+    second: LIZARD_WARRIOR_ R Finger2
+  - first:
+      4: 400100
+    second: LIZARD_WARRIOR_ R Finger21
+  - first:
+      4: 400102
+    second: LIZARD_WARRIOR_ R Finger22
+  - first:
+      4: 400104
+    second: LIZARD_WARRIOR_ R Finger3
+  - first:
+      4: 400106
+    second: LIZARD_WARRIOR_ R Finger31
+  - first:
+      4: 400108
+    second: LIZARD_WARRIOR_ R Finger32
+  - first:
+      4: 400110
+    second: LIZARD_WARRIOR_ R Foot
+  - first:
+      4: 400112
+    second: LIZARD_WARRIOR_ R Forearm
+  - first:
+      4: 400114
+    second: LIZARD_WARRIOR_ R Hand
+  - first:
+      4: 400116
+    second: LIZARD_WARRIOR_ R Thigh
+  - first:
+      4: 400118
+    second: LIZARD_WARRIOR_ R Toe0
+  - first:
+      4: 400120
+    second: LIZARD_WARRIOR_ R Toe01
+  - first:
+      4: 400122
+    second: LIZARD_WARRIOR_ R Toe02
+  - first:
+      4: 400124
+    second: LIZARD_WARRIOR_ R Toe1
+  - first:
+      4: 400126
+    second: LIZARD_WARRIOR_ R Toe11
+  - first:
+      4: 400128
+    second: LIZARD_WARRIOR_ R Toe12
+  - first:
+      4: 400130
+    second: LIZARD_WARRIOR_ R Toe2
+  - first:
+      4: 400132
+    second: LIZARD_WARRIOR_ R Toe21
+  - first:
+      4: 400134
+    second: LIZARD_WARRIOR_ R Toe22
+  - first:
+      4: 400136
+    second: LIZARD_WARRIOR_ R Toe3
+  - first:
+      4: 400138
+    second: LIZARD_WARRIOR_ R Toe31
+  - first:
+      4: 400140
+    second: LIZARD_WARRIOR_ R Toe32
+  - first:
+      4: 400142
+    second: LIZARD_WARRIOR_ R UpperArm
+  - first:
+      4: 400144
+    second: LIZARD_WARRIOR_ Spine
+  - first:
+      4: 400146
+    second: LIZARD_WARRIOR_ Spine1
+  - first:
+      4: 400148
+    second: LIZARD_WARRIOR_ Tail
+  - first:
+      4: 400150
+    second: LIZARD_WARRIOR_ Tail1
+  - first:
+      4: 400152
+    second: LIZARD_WARRIOR_ Tail2
+  - first:
+      4: 400154
+    second: LIZARD_WARRIOR_ Tail3
+  - first:
+      4: 400156
+    second: LIZARD_WARRIOR_ Tail4
+  - first:
+      4: 400158
+    second: LIZARD_WARRIOR_ Tail5
+  - first:
+      4: 400160
+    second: LIZARD_WARRIOR_ Tail6
+  - first:
+      4: 400162
+    second: LIZARD_WARRIOR_ Tail7
+  - first:
+      4: 400164
+    second: LIZARD_WARRIOR_ Tail8
+  - first:
+      4: 400166
+    second: LIZARD_WARRIOR_ Tail9
+  - first:
+      4: 400168
+    second: LIZARD_WARRIOR_FILL_L_A_01
+  - first:
+      4: 400170
+    second: LIZARD_WARRIOR_FILL_L_A_02
+  - first:
+      4: 400172
+    second: LIZARD_WARRIOR_FILL_L_B_01
+  - first:
+      4: 400174
+    second: LIZARD_WARRIOR_FILL_L_B_02
+  - first:
+      4: 400176
+    second: LIZARD_WARRIOR_FILL_L_C_01
+  - first:
+      4: 400178
+    second: LIZARD_WARRIOR_FILL_L_C_02
+  - first:
+      4: 400180
+    second: LIZARD_WARRIOR_FILL_L_D_01
+  - first:
+      4: 400182
+    second: LIZARD_WARRIOR_FILL_L_D_02
+  - first:
+      4: 400184
+    second: LIZARD_WARRIOR_FILL_L_E_01
+  - first:
+      4: 400186
+    second: LIZARD_WARRIOR_FILL_L_E_02
+  - first:
+      4: 400188
+    second: LIZARD_WARRIOR_FILL_Mid_01
+  - first:
+      4: 400190
+    second: LIZARD_WARRIOR_FILL_Mid_02
+  - first:
+      4: 400192
+    second: LIZARD_WARRIOR_FILL_R_A_01
+  - first:
+      4: 400194
+    second: LIZARD_WARRIOR_FILL_R_A_02
+  - first:
+      4: 400196
+    second: LIZARD_WARRIOR_FILL_R_B_01
+  - first:
+      4: 400198
+    second: LIZARD_WARRIOR_FILL_R_B_02
+  - first:
+      4: 400200
+    second: LIZARD_WARRIOR_FILL_R_C_01
+  - first:
+      4: 400202
+    second: LIZARD_WARRIOR_FILL_R_C_02
+  - first:
+      4: 400204
+    second: LIZARD_WARRIOR_FILL_R_D_01
+  - first:
+      4: 400206
+    second: LIZARD_WARRIOR_FILL_R_D_02
+  - first:
+      4: 400208
+    second: LIZARD_WARRIOR_FILL_R_E_01
+  - first:
+      4: 400210
+    second: LIZARD_WARRIOR_FILL_R_E_02
+  - first:
+      4: 400212
+    second: LIZARD_WARRIOR_SPEAR
+  - first:
+      4: 400214
+    second: LZARD_WARRIOR_TONGUE_01
+  - first:
+      4: 400216
+    second: LZARD_WARRIOR_TONGUE_02
+  - first:
+      4: 400218
+    second: LZARD_WARRIOR_TONGUE_03
+  - first:
+      4: 400220
+    second: LZARD_WARRIOR_TONGUE_04
+  - first:
+      4: 400222
+    second: ROOT_
+  - first:
+      4: 400224
+    second: SPEAR
+  - first:
+      4: 400226
+    second: LIZARD_WARRIOR_Morph_fatBelly
+  - first:
+      4: 400228
+    second: LIZARD_WARRIOR_Morph_LongMuzzle
+  - first:
+      4: 400230
+    second: LIZARD_WARRIOR_Morph_LonHorns
+  - first:
+      4: 400232
+    second: LIZARD_WARRIOR_Morph_Muscular
+  - first:
+      4: 400234
+    second: LIZARD_WARRIOR_Morph_ShortBackSpikes
+  - first:
+      4: 400236
+    second: LIZARD_WARRIOR_Morph_ShortTailSpikes
+  - first:
+      4: 400238
+    second: LIZARD_WARRIOR_Morph_Skinnyq
+  - first:
+      4: 400240
+    second: LIZARD_WARRIOR_Morph_TinyHorns
+  - first:
+      23: 2300000
+    second: LIZARD_WARRIOR_Morph_fatBelly
+  - first:
+      23: 2300002
+    second: LIZARD_WARRIOR_Morph_LongMuzzle
+  - first:
+      23: 2300004
+    second: LIZARD_WARRIOR_Morph_LonHorns
+  - first:
+      23: 2300006
+    second: LIZARD_WARRIOR_Morph_Muscular
+  - first:
+      23: 2300008
+    second: LIZARD_WARRIOR_Morph_ShortBackSpikes
+  - first:
+      23: 2300010
+    second: LIZARD_WARRIOR_Morph_ShortTailSpikes
+  - first:
+      23: 2300012
+    second: LIZARD_WARRIOR_Morph_Skinnyq
+  - first:
+      23: 2300014
+    second: LIZARD_WARRIOR_Morph_TinyHorns
+  - first:
+      33: 3300000
+    second: LIZARD_WARRIOR_Morph_fatBelly
+  - first:
+      33: 3300002
+    second: LIZARD_WARRIOR_Morph_LongMuzzle
+  - first:
+      33: 3300004
+    second: LIZARD_WARRIOR_Morph_LonHorns
+  - first:
+      33: 3300006
+    second: LIZARD_WARRIOR_Morph_Muscular
+  - first:
+      33: 3300008
+    second: LIZARD_WARRIOR_Morph_ShortBackSpikes
+  - first:
+      33: 3300010
+    second: LIZARD_WARRIOR_Morph_ShortTailSpikes
+  - first:
+      33: 3300012
+    second: LIZARD_WARRIOR_Morph_Skinnyq
+  - first:
+      33: 3300014
+    second: LIZARD_WARRIOR_Morph_TinyHorns
+  - first:
+      43: 4300000
+    second: LIZARD_WARRIOR
+  - first:
+      43: 4300002
+    second: default001
+  - first:
+      43: 4300004
+    second: SPEAR
+  - first:
+      43: 4300006
+    second: LIZARD_WARRIOR_Morph_Muscular
+  - first:
+      43: 4300008
+    second: LIZARD_WARRIOR_Morph_fatBelly
+  - first:
+      43: 4300010
+    second: LIZARD_WARRIOR_Morph_ShortBackSpikes
+  - first:
+      43: 4300012
+    second: LIZARD_WARRIOR_Morph_ShortTailSpikes
+  - first:
+      43: 4300014
+    second: LIZARD_WARRIOR_Morph_TinyHorns
+  - first:
+      43: 4300016
+    second: LIZARD_WARRIOR_Morph_LonHorns
+  - first:
+      43: 4300018
+    second: LIZARD_WARRIOR_Morph_LongMuzzle
+  - first:
+      43: 4300020
+    second: LIZARD_WARRIOR_Morph_Skinnyq
+  - first:
+      74: 7400000
+    second: Take 001
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: default001
+  - first:
+      137: 13700002
+    second: LIZARD_WARRIOR
+  - first:
+      137: 13700004
+    second: SPEAR
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: LIZARD_WARRIOR
+    second: {fileID: 2100000, guid: 4040e56e44a4f674289a0ec8f3b29730, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SPEAR
+    second: {fileID: 2100000, guid: 113882c06abbf20429b45c0e9536f03c, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips:
+  - 07327995c609e84498173ada14f6de61
+  - f186fa6ac440cae4caa01f358d352e97
+  - 2092fb34d8ed8724ea5fdeda3285a721
+  - ae0f3c26f1ab5654586bf5f2d3001834
+  - 30d0ed91c0c2fcb41a7e37f796603322
+  - 6cebd384adc2bfd4796c89e0e0e9a6bf
+  - 05ab0ad2701674a43ab1c1d99cd44c7d
+  - f01745dc47e0c6b4c977d3182a26e9bd
+  - a1fd8fcbe38f581419667902a21410fb
+  - e1076be405e57d8498abbe97a2861a43
+  - 2814485eb632fb142938a44bafd19699
+  - 35bf831f7695363469f701e108ac60fd
+  - 84fbc5a0444ab614bb9c0d109c64108b
+  - 84a13943148fd4e49af0e9cc8cc0cb71
+  - 62fe0cd96f31883479f6dc805e47a106
+  - 76bc2c1fa8dade840ab75f185dbabe7d
+  - 62a35615359c0334691ee3a6b68758ec
+  - a6fda211489c8f44d8576ae0f04a4fff
+  - bc83425c434ffee4f8ed116920100b30
+  - 1db63620a7b3e09478346f62d21cae05
+  - 8edccfa7e5274b3419a99d8086df1fd6
+  - 1afb9b3d909aead438cdf0d8f996d4b1
+  - 285a3977d16fc3241a1f6e31169539af
+  - 8aafd129690a76148b66a75dc288e965
+  - 214578508b91b1241af1b9dbda0815c0
+  - 62255bc64f83e104fb2bbe7d34ddbf16
+  - f1de9183ca772c645828af8608f5afc2
+  - 10622ec7dc2899e42b345d9d8c594eaa
+  - 1aab1cbd18eca8e429d21ac2c0f8348e
+  - 5e118f7e53ecaa0448fab7c661b15017
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: ROOT_
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

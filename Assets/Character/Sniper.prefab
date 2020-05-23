@@ -1,5 +1,62 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &372124056
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 372124057}
+  - component: {fileID: 372124059}
+  - component: {fileID: 372124058}
+  m_Layer: 0
+  m_Name: AreaDetection
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &372124057
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 372124056}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2105242184679498710}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &372124059
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 372124056}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.00001
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &372124058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 372124056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4336c2c7ce3b4d24e8544c791c0da2ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1280648202
 GameObject:
   m_ObjectHideFlags: 0
@@ -790,6 +847,7 @@ Transform:
   - {fileID: 3154749225523031796}
   - {fileID: 1931341042440634704}
   - {fileID: 6362995088486030296}
+  - {fileID: 372124057}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -912,7 +970,6 @@ MonoBehaviour:
     type: 3}
   bulletSpawnPoint: {fileID: 7908301804116123719}
   muzzleSpawnPoint: {fileID: 1280648202}
-  inactiveTime: 15
 --- !u!1 &3180031285885622686
 GameObject:
   m_ObjectHideFlags: 0
@@ -2664,15 +2721,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3fe0929373b68b24f8b63aef94a4e590, type: 3}
---- !u!1 &3180000657492895111 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6610513871751557614, guid: 3fe0929373b68b24f8b63aef94a4e590,
-    type: 3}
-  m_PrefabInstance: {fileID: 8619013274078565481}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1908110513557575572 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7919046197520483325, guid: 3fe0929373b68b24f8b63aef94a4e590,
+    type: 3}
+  m_PrefabInstance: {fileID: 8619013274078565481}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &3180000657492895111 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6610513871751557614, guid: 3fe0929373b68b24f8b63aef94a4e590,
     type: 3}
   m_PrefabInstance: {fileID: 8619013274078565481}
   m_PrefabAsset: {fileID: 0}
