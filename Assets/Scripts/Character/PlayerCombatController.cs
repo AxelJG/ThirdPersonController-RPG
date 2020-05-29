@@ -122,14 +122,17 @@ public class PlayerCombatController : MonoBehaviour {
         inactiveTime = INACTIVE_TIME;
     }
 
+    //Cuando el combate a terminado
     public void FinishFight () {
         weaponReady = false;
         playerManager.FightMode = false;
+        enemyDetect = null;
         playerManager.ElementSelected = this.transform;
         animator.SetBool ("FightMode", false);
 
-        if (troopManager.Encounter)
+        if (troopManager.Encounter) {
             troopManager.Encounter = false;
+        }
     }
     #endregion
 
@@ -148,9 +151,10 @@ public class PlayerCombatController : MonoBehaviour {
 
     #region COMBAT AI MODE
 
+    //Secuencia de ataque automatica
     public IEnumerator FightSequence () {
 
-        if(enemyDetect != null){
+        if (enemyDetect != null) {
             playerManager.ElementSelected = enemyDetect;
         }
 
@@ -168,6 +172,7 @@ public class PlayerCombatController : MonoBehaviour {
         yield return null;
     }
 
+    //Detección del enemigo mas cercano
     public IEnumerator DetectionNearbyEnemy () {
 
         while (enemyDetect == null && areaCollider.radius < 12f) {
